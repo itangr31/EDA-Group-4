@@ -1,0 +1,1437 @@
+# This file was exported by Greenbyte at 2022-02-01 13:34:51. Please see https://www.greenbyte.com for more information about Greenbyte.
+#
+# Turbine: Penmanshiel 04
+# Turbine type: Senvion MM82 (Senvion MM82 kW)
+# Time zone: UTC
+# Time interval: 2016-01-01 00:00:00 - 2017-01-01 00:00:00 (366 days)
+#
+# Penmanshiel 04 Sum production: 2397231 kWh
+#
+Timestamp start,Timestamp end,Duration,Status,Code,Message,Comment,Service contract category,IEC category
+2016-06-13 14:51:51,2016-06-13 17:56:37,03:04:46,Stop,100,Safety chain open,,Safety chain (13),Forced outage
+2016-06-13 14:51:52,2016-06-13 14:55:38,00:03:46,Warning,1825,Overload gear bypass filter,,Warnings (27),
+2016-06-13 14:51:53,2016-06-13 14:55:10,00:03:17,Warning,3875,Overload transf. fan inlet air,,Warnings (27),
+2016-06-13 14:51:54,2016-06-13 14:54:37,00:02:43,Warning,785,Error brake resistor CHP,,Warnings (27),Full Performance
+2016-06-13 14:52:02,2016-06-13 17:04:22,02:12:20,Warning,850,Error lubrication pump pitch,,Warnings (27),
+2016-06-13 14:52:03,2016-06-13 14:54:25,00:02:22,Warning,8402,No assignment to a PMU,,Warnings (27),
+2016-06-13 14:52:51,2016-06-13 17:13:13,02:20:22,Warning,716,Battery charge cycle axis 1 error,,Warnings (27),
+2016-06-13 14:52:51,2016-06-13 17:13:13,02:20:22,Warning,717,Battery charge cycle axis 2 error,,Warnings (27),
+2016-06-13 14:52:51,2016-06-13 17:13:13,02:20:22,Warning,718,Battery charge cycle axis 3 error,,Warnings (27),
+2016-06-13 16:51:51,2016-06-13 17:50:19,00:58:28,Warning,720,Pitch batteries charging cycle,,Warnings (27),
+2016-06-13 17:18:07,2016-06-13 17:48:52,00:30:45,Warning,683,Limit switch error 95° axis 3,,Warnings (27),Forced outage
+2016-06-13 17:19:57,2016-06-13 17:48:52,00:28:55,Warning,675,Pitch measuring system 1><2,,Warnings (27),
+2016-06-13 17:29:36,2016-06-13 17:48:54,00:19:18,Warning,2125,Timeout brake closed,,Warnings (27),
+2016-06-13 17:49:57,2016-06-20 11:33:08,161:43:11,Informational,245,Parameterized P red.,,Operating states  (28),
+2016-06-13 17:54:30,2016-06-14 10:01:14,16:06:44,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-06-13 18:01:58,2016-06-13 18:04:05,00:02:07,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-06-13 18:05:47,2016-06-13 18:37:05,00:31:18,Stop,25,Manual stop without login,,Manual stop (service)  (9),Scheduled Maintenance
+2016-06-13 18:09:55,2016-06-16 13:21:29,67:11:34,Informational,402,Semi-automatic operation,,Warnings (27),
+2016-06-13 18:38:09,2016-06-14 11:23:52,16:45:43,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-06-14 01:34:01,-,-,Warning,7324,Check time synchronization,,Warnings (27),
+2016-06-14 10:18:34,2016-06-14 11:02:51,00:44:17,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-06-14 11:25:23,2016-06-14 11:32:43,00:07:20,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-06-14 11:37:14,2016-06-14 13:52:01,02:14:47,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-06-14 13:55:32,2016-06-14 13:56:22,00:00:50,Stop,420,Test brake program 52,,Warnings (27),
+2016-06-14 13:59:39,2016-06-14 14:03:45,00:04:06,Stop,418,Test brake program 60,,Warnings (27),Technical Standby
+2016-06-14 14:06:03,2016-06-14 14:08:54,00:02:51,Stop,416,Test brake program 75,,Warnings (27),
+2016-06-14 14:12:35,2016-06-14 14:18:39,00:06:04,Stop,414,Test brake program 180,,Warnings (27),Technical Standby
+2016-06-14 14:23:05,2016-06-14 14:45:53,00:22:48,Stop,100,Safety chain open,,Safety chain (13),Forced outage
+2016-06-14 14:47:15,2016-06-14 15:28:39,00:41:24,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-06-14 15:07:49,2016-06-14 15:08:21,00:00:32,Warning,3220,Reduced power converter,,Warnings (27),
+2016-06-14 15:33:04,2016-06-16 13:17:54,45:44:50,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-06-16 13:17:32,2016-06-16 13:17:50,00:00:18,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-06-16 13:29:18,2016-06-16 13:31:24,00:02:06,Stop,3210,Frequency converter load rejection,,Generator and Converter errors (20),Forced outage
+2016-06-16 13:35:33,2016-06-16 13:36:50,00:01:17,Informational,1552,Gearbox warm-up stage,,Operating states  (28),Full Performance
+2016-06-16 13:36:07,2016-06-16 13:37:16,00:01:09,Warning,3260,Converter power too low,,Warnings (27),Forced outage
+2016-06-16 13:36:44,2016-06-16 14:02:30,00:25:46,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-06-16 13:57:00,2016-06-16 14:00:51,00:03:51,Warning,3220,Reduced power converter,,Warnings (27),
+2016-06-16 13:57:00,2016-06-16 14:02:30,00:05:30,Warning,3205,PT100 converter inlet temperature defect,,Warnings (27),
+2016-06-16 13:57:00,2016-06-16 14:00:26,00:03:26,Informational,3835,Cable panel breaker open,,Warnings (27),
+2016-06-16 13:57:00,2016-06-16 14:02:30,00:05:30,Warning,4600,PT100 base box temp. defect,,Warnings (27),
+2016-06-16 13:57:00,2016-06-16 14:00:22,00:03:22,Warning,3870,Overload transformer fan outlet air,,Warnings (27),Full Performance
+2016-06-16 13:57:05,2016-06-16 14:02:30,00:05:25,Warning,4607,Heating/fan base box faulty,,Warnings (27),
+2016-06-16 13:57:09,2016-06-16 14:02:30,00:05:21,Warning,3400,UPS warning,,Warnings (27),Full Performance
+2016-06-16 13:57:28,2016-06-16 14:00:51,00:03:23,Warning,3160,Cable overload,,Warnings (27),
+2016-06-16 14:04:11,2016-06-16 14:04:43,00:00:32,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-06-16 14:07:06,2016-06-16 14:10:42,00:03:36,Informational,1552,Gearbox warm-up stage,,Operating states  (28),Full Performance
+2016-06-16 14:09:05,2016-06-16 14:10:45,00:01:40,Warning,3260,Converter power too low,,Warnings (27),Forced outage
+2016-06-16 14:10:35,2016-06-16 14:12:32,00:01:57,Stop,3555,Current asymmetry,,Generator and Converter errors (20),Forced outage
+2016-06-16 14:21:52,2016-06-16 14:23:06,00:01:14,Stop,117,Emergency stop base box,,Emergency stop switch (Converter) (12),Forced outage
+2016-06-18 13:20:05,2016-06-18 13:20:53,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-18 16:16:34,2016-06-18 16:17:21,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-18 19:38:36,2016-06-18 19:39:24,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-19 01:34:47,2016-06-19 01:35:34,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-19 02:35:39,2016-06-19 02:36:26,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-19 05:26:35,2016-06-19 05:27:22,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-19 07:40:03,2016-06-19 07:40:50,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-19 08:44:40,2016-06-19 08:45:28,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-20 11:30:37,2016-06-20 11:54:21,00:23:44,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-06-20 11:38:58,2016-06-20 11:54:08,00:15:10,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-06-20 11:54:21,2016-06-20 11:54:26,00:00:05,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-20 11:54:26,2016-06-20 11:54:38,00:00:12,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-06-20 11:54:38,2016-06-20 11:56:01,00:01:23,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-20 11:56:01,2016-06-20 12:00:23,00:04:22,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-06-20 12:00:23,2016-06-20 23:00:00,10:59:37,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-20 23:00:00,2016-06-20 23:00:47,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-20 23:00:47,2016-06-21 00:47:42,01:46:55,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-21 00:47:42,2016-06-21 00:48:29,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-21 00:48:29,2016-06-21 03:17:52,02:29:23,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-21 03:17:52,2016-06-21 03:18:40,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-21 03:18:40,2016-06-21 08:26:54,05:08:14,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-21 08:26:54,2016-06-21 11:37:37,03:10:43,Stop,3500,Grid loss,,External stop (grid) (4),Out of Electrical Specification
+2016-06-21 08:26:54,2016-06-21 08:26:54,00:00:00,Informational,3543,High frequency - P reduction,,Warnings (27),Full Performance
+2016-06-21 08:26:54,2016-06-21 08:26:54,00:00:00,Informational,3591,Transient voltage peak,,Warnings (27),Full Performance
+2016-06-21 11:37:37,2016-06-22 15:21:20,27:43:43,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-22 15:21:20,2016-06-22 15:21:32,00:00:12,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-06-22 15:21:32,2016-06-22 15:33:46,00:12:14,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-22 15:33:46,2016-06-22 15:34:05,00:00:19,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-06-22 15:34:05,2016-06-22 15:35:25,00:01:20,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-22 15:35:25,2016-06-22 15:35:54,00:00:29,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-06-22 15:35:54,2016-06-22 15:41:23,00:05:29,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-22 15:41:23,2016-06-22 15:42:20,00:00:57,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-06-22 15:42:20,2016-06-22 16:14:55,00:32:35,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-22 16:14:55,2016-06-22 16:15:50,00:00:55,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-06-22 16:15:50,2016-06-23 01:59:07,09:43:17,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-23 01:59:07,2016-06-23 01:59:54,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-23 01:59:54,2016-06-23 02:26:21,00:26:27,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-23 02:26:21,2016-06-23 02:27:08,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-23 02:27:08,2016-06-23 04:19:58,01:52:50,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-23 04:19:58,2016-06-23 04:20:45,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-23 04:20:45,2016-06-23 09:19:28,04:58:43,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-23 09:19:28,2016-06-23 09:20:16,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-23 09:20:16,2016-06-23 09:34:53,00:14:37,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-23 09:34:53,2016-06-23 09:35:40,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-23 09:35:40,2016-06-23 09:48:10,00:12:30,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-23 09:48:10,2016-06-23 09:48:57,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-23 09:48:57,2016-06-23 10:20:46,00:31:49,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-23 10:20:46,2016-06-23 10:21:33,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-23 10:21:33,2016-06-23 10:33:11,00:11:38,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-23 10:33:11,2016-06-23 10:33:58,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-23 10:33:58,2016-06-24 03:31:57,16:57:59,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 03:31:57,2016-06-24 03:32:45,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-24 03:32:45,2016-06-24 05:18:28,01:45:43,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 05:18:28,2016-06-24 05:19:15,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-24 05:19:15,2016-06-24 06:08:28,00:49:13,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 06:08:28,2016-06-24 06:09:15,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-24 06:09:15,2016-06-24 06:33:01,00:23:46,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 06:33:01,2016-06-24 06:33:49,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-24 06:33:49,2016-06-24 07:28:21,00:54:32,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 07:28:21,2016-06-24 07:29:08,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-24 07:29:08,2016-06-24 09:46:37,02:17:29,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 09:46:37,2016-06-24 09:58:28,00:11:51,Stop,6200,Cable autounwind,,Operating states  (28),Technical Standby
+2016-06-24 09:58:28,2016-06-24 10:21:05,00:22:37,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 10:21:05,2016-06-24 10:21:53,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-24 10:21:53,2016-06-24 12:16:34,01:54:41,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 12:16:34,2016-06-24 12:17:21,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-24 12:17:21,2016-06-24 12:36:14,00:18:53,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 12:36:14,2016-06-24 12:37:01,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-24 12:37:01,2016-06-24 14:11:39,01:34:38,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 14:11:39,2016-06-24 14:16:48,00:05:09,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-06-24 14:16:48,2016-06-24 16:10:10,01:53:22,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 16:10:10,2016-06-24 16:10:58,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-24 16:10:58,2016-06-24 16:31:37,00:20:39,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 16:31:37,2016-06-24 16:32:25,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-24 16:32:25,2016-06-24 18:33:51,02:01:26,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 18:33:51,2016-06-24 18:34:38,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-24 18:34:38,2016-06-24 19:18:27,00:43:49,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-24 19:18:27,2016-06-24 19:19:15,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-24 19:19:15,2016-06-25 07:34:32,12:15:17,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-25 07:34:32,2016-06-25 07:35:19,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-25 07:35:19,2016-06-25 07:48:16,00:12:57,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-25 07:48:16,2016-06-25 07:49:04,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-25 07:49:04,2016-06-25 14:26:24,06:37:20,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-25 14:26:24,2016-06-25 14:27:12,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-25 14:27:12,2016-06-25 20:05:16,05:38:04,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-25 20:05:16,2016-06-25 20:06:04,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-25 20:06:04,2016-06-26 03:33:02,07:26:58,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-26 03:33:02,2016-06-26 03:33:50,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-26 03:33:50,2016-06-26 06:52:32,03:18:42,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-26 06:52:32,2016-06-26 06:53:20,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-26 06:53:20,2016-06-26 07:30:04,00:36:44,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-26 07:30:04,2016-06-26 07:30:52,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-26 07:30:52,2016-06-26 07:52:36,00:21:44,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-26 07:52:36,2016-06-26 07:53:23,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-26 07:53:23,2016-06-26 08:13:15,00:19:52,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-26 08:13:15,2016-06-26 08:14:03,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-26 08:14:03,2016-06-26 08:32:32,00:18:29,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-26 08:32:32,2016-06-26 08:33:19,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-26 08:33:19,2016-06-26 11:11:26,02:38:07,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-26 11:11:26,2016-06-26 11:12:13,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-26 11:12:13,2016-06-26 11:55:07,00:42:54,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-26 11:55:07,2016-06-26 11:55:54,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-26 11:55:54,2016-06-26 12:16:56,00:21:02,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-26 12:16:56,2016-06-26 12:17:43,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-26 12:17:43,2016-06-26 12:38:39,00:20:56,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-26 12:38:39,2016-06-26 12:39:27,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-26 12:39:27,2016-06-26 14:01:36,01:22:09,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-26 14:01:36,2016-06-26 14:16:15,00:14:39,Stop,6200,Cable autounwind,,Operating states  (28),Technical Standby
+2016-06-26 14:16:15,2016-06-27 15:05:34,24:49:19,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-27 15:05:34,2016-06-27 16:45:23,01:39:49,Stop,8000,Park master stop,,Remote stop (30),Requested Shutdown
+2016-06-27 16:45:23,2016-06-27 23:21:56,06:36:33,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-27 23:21:56,2016-06-27 23:22:43,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-27 23:22:43,2016-06-28 03:32:54,04:10:11,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-28 03:32:54,2016-06-28 03:33:41,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-28 03:33:41,2016-06-28 06:23:18,02:49:37,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-28 06:23:18,2016-06-28 06:24:05,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-28 06:24:05,2016-06-28 06:53:36,00:29:31,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-28 06:53:36,2016-06-28 06:54:23,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-28 06:54:23,2016-06-28 07:02:13,00:07:50,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-28 07:02:13,2016-06-28 07:03:00,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-28 07:03:00,2016-06-28 11:06:20,04:03:20,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-28 11:06:20,2016-06-28 11:07:08,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-28 11:07:08,2016-06-28 11:33:28,00:26:20,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-28 11:33:28,2016-06-28 11:35:44,00:02:16,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-06-28 11:35:44,2016-06-28 15:08:24,03:32:40,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-28 15:08:24,2016-06-28 15:09:11,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-28 15:09:11,2016-06-28 16:14:52,01:05:41,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-28 16:14:52,2016-06-28 16:15:39,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-28 16:15:39,2016-06-28 17:03:11,00:47:32,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-28 17:03:11,2016-06-28 17:03:59,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-28 17:03:59,2016-06-28 19:43:42,02:39:43,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-28 19:43:42,2016-06-28 19:44:29,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-28 19:44:29,2016-06-28 20:19:59,00:35:30,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-28 20:19:59,2016-06-28 20:20:47,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-28 20:20:47,2016-06-29 00:59:11,04:38:24,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-29 00:59:11,2016-06-29 00:59:58,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-29 00:59:58,2016-06-29 01:42:23,00:42:25,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-29 01:42:23,2016-06-29 01:43:10,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-29 01:43:10,2016-06-29 03:32:21,01:49:11,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-29 03:32:21,2016-06-29 03:33:09,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-29 03:33:09,2016-06-29 07:45:28,04:12:19,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-29 07:45:28,2016-06-29 07:46:15,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-29 07:46:15,2016-06-29 08:57:50,01:11:35,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-29 08:57:50,2016-06-29 08:58:37,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-29 08:58:37,2016-06-29 14:23:07,05:24:30,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-29 14:23:07,2016-06-29 14:23:54,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-29 14:23:54,2016-06-29 14:51:24,00:27:30,Informational,0,System OK,,System OK (32),Full Performance
+2016-06-29 14:51:24,2016-06-29 14:52:11,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-06-29 14:52:11,2016-07-02 02:49:18,59:57:07,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-02 02:49:18,2016-07-02 02:50:06,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-02 02:50:06,2016-07-02 19:21:36,16:31:30,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-02 19:21:12,2016-07-02 19:27:32,00:06:20,Warning,2600,High temp. gen. bearing 1,,Warnings (27),
+2016-07-02 19:21:36,2016-07-05 04:32:07,57:10:31,Stop,2605,Max. temp. gen. bearing 1,,Temperature error (22),Forced outage
+2016-07-05 04:32:07,2016-07-05 04:34:33,00:02:26,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-05 04:34:33,2016-07-05 04:41:08,00:06:35,Informational,1552,Gearbox warm-up stage,,Operating states  (28),Full Performance
+2016-07-05 04:41:08,2016-07-05 05:10:00,00:28:52,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-05 05:10:00,2016-07-05 05:11:48,00:01:48,Stop,1550,Missing gear oil (high rpm),,Mechanical error (23),Forced outage
+2016-07-05 05:11:48,2016-07-05 05:43:06,00:31:18,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-05 05:43:06,2016-07-05 05:43:43,00:00:37,Warning,2600,High temp. gen. bearing 1,,Warnings (27),
+2016-07-05 05:43:43,2016-07-05 06:23:46,00:40:03,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-05 06:23:46,2016-07-05 06:34:18,00:10:32,Warning,2600,High temp. gen. bearing 1,,Warnings (27),
+2016-07-05 06:24:00,2016-07-05 06:51:34,00:27:34,Stop,2605,Max. temp. gen. bearing 1,,Temperature error (22),Forced outage
+2016-07-05 06:51:34,2016-07-05 08:22:53,01:31:19,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-05 08:22:53,2016-07-05 08:45:30,00:22:37,Stop,455,Repeating error BP52,,Repeated error  (25),Forced outage
+2016-07-05 08:22:53,2016-07-05 08:45:30,00:22:37,Warning,2600,High temp. gen. bearing 1,,Warnings (27),
+2016-07-05 08:45:30,2016-07-05 08:51:16,00:05:46,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-05 08:51:16,2016-07-05 08:57:10,00:05:54,Warning,2600,High temp. gen. bearing 1,,Warnings (27),
+2016-07-05 08:51:18,2016-07-05 14:42:30,05:51:12,Stop,2605,Max. temp. gen. bearing 1,,Temperature error (22),Forced outage
+2016-07-05 14:42:30,2016-07-05 15:30:17,00:47:47,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-05 15:30:17,2016-07-05 15:30:32,00:00:15,Warning,2600,High temp. gen. bearing 1,,Warnings (27),
+2016-07-05 15:30:32,2016-07-05 15:39:56,00:09:24,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-05 15:39:56,2016-07-05 15:40:10,00:00:14,Warning,2600,High temp. gen. bearing 1,,Warnings (27),
+2016-07-05 15:40:10,2016-07-05 18:49:11,03:09:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-05 18:49:11,2016-07-05 18:49:58,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-05 18:49:58,2016-07-06 06:00:00,11:10:02,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-06 06:00:00,2016-07-06 06:02:16,00:02:16,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-07-06 06:02:16,2016-07-06 06:53:12,00:50:56,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-06 06:53:12,2016-07-06 06:54:00,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-06 06:54:00,2016-07-06 10:07:38,03:13:38,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-06 10:07:38,2016-07-06 10:08:25,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-06 10:08:25,2016-07-06 10:38:40,00:30:15,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-06 10:38:40,2016-07-06 10:39:28,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-06 10:39:28,2016-07-06 10:51:41,00:12:13,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-06 10:51:41,2016-07-06 10:52:28,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-06 10:52:28,2016-07-06 11:41:47,00:49:19,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-06 11:41:47,2016-07-06 11:42:34,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-06 11:42:34,2016-07-06 12:39:21,00:56:47,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-06 12:39:21,2016-07-06 12:40:08,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-06 12:40:08,2016-07-06 12:52:45,00:12:37,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-06 12:52:45,2016-07-06 12:53:33,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-06 12:53:33,2016-07-07 03:05:39,14:12:06,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-07 03:05:39,2016-07-07 12:38:07,09:32:28,Stop,455,Repeating error BP52,,Repeated error  (25),Forced outage
+2016-07-07 03:05:39,2016-07-07 12:38:07,09:32:28,Warning,2600,High temp. gen. bearing 1,,Warnings (27),
+2016-07-07 12:38:07,2016-07-08 09:32:02,20:53:55,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-08 09:32:02,2016-07-08 09:37:41,00:05:39,Warning,2600,High temp. gen. bearing 1,,Warnings (27),
+2016-07-08 09:32:02,2016-07-09 05:49:23,20:17:21,Stop,2605,Max. temp. gen. bearing 1,,Temperature error (22),Forced outage
+2016-07-09 05:49:23,2016-07-09 06:17:47,00:28:24,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-09 06:17:47,2016-07-09 06:18:16,00:00:29,Warning,2600,High temp. gen. bearing 1,,Warnings (27),
+2016-07-09 06:17:56,2016-07-09 07:09:57,00:52:01,Stop,2605,Max. temp. gen. bearing 1,,Temperature error (22),Forced outage
+2016-07-09 07:09:57,2016-07-09 08:11:47,01:01:50,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-09 08:11:47,2016-07-09 08:16:58,00:05:11,Warning,2600,High temp. gen. bearing 1,,Warnings (27),
+2016-07-09 08:13:15,2016-07-17 12:44:59,196:31:44,Stop,2605,Max. temp. gen. bearing 1,,Temperature error (22),Forced outage
+2016-07-17 12:36:44,2016-07-17 12:37:58,00:01:14,Warning,2600,High temp. gen. bearing 1,,Warnings (27),
+2016-07-17 12:43:36,2016-07-17 12:43:38,00:00:02,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-17 12:44:59,2016-07-17 12:48:20,00:03:21,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-17 12:48:20,2016-07-17 12:58:26,00:10:06,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-07-17 12:48:33,2016-07-17 12:49:56,00:01:23,Informational,1552,Gearbox warm-up stage,,Operating states  (28),Full Performance
+2016-07-17 12:49:50,2016-07-17 12:58:26,00:08:36,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-07-17 12:58:26,2016-07-17 13:00:39,00:02:13,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-17 13:00:39,2016-07-17 15:11:25,02:10:46,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-07-17 13:00:51,2016-07-17 13:04:50,00:03:59,Informational,1552,Gearbox warm-up stage,,Operating states  (28),Full Performance
+2016-07-17 13:37:56,2016-07-17 13:39:44,00:01:48,Stop,1550,Missing gear oil (high rpm),,Mechanical error (23),Forced outage
+2016-07-17 13:55:27,2016-07-17 15:11:25,01:15:58,Stop,455,Repeating error BP52,,Repeated error  (25),Forced outage
+2016-07-17 15:11:25,2016-07-17 15:15:33,00:04:08,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-17 15:15:33,2016-07-26 11:07:21,211:51:48,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-07-17 15:19:55,2016-07-17 15:21:43,00:01:48,Stop,1550,Missing gear oil (high rpm),,Mechanical error (23),Forced outage
+2016-07-18 03:11:02,2016-07-18 03:11:49,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-18 18:38:12,2016-07-18 18:39:00,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-19 01:42:29,2016-07-19 01:43:16,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-19 02:10:02,2016-07-19 02:10:49,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-19 04:34:19,2016-07-19 04:35:06,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-19 06:27:51,2016-07-19 06:28:38,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-20 06:56:41,2016-07-20 06:57:29,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-20 08:32:54,2016-07-20 09:46:26,01:13:32,Stop,3500,Grid loss,,External stop (grid) (4),Out of Electrical Specification
+2016-07-20 08:32:54,2016-07-20 08:32:54,00:00:00,Informational,3537,Transient fault,,Warnings (27),
+2016-07-20 08:32:54,2016-07-20 08:32:54,00:00:00,Informational,3543,High frequency - P reduction,,Warnings (27),Full Performance
+2016-07-20 10:12:30,2016-07-20 10:13:18,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-20 14:35:37,2016-07-20 14:36:24,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-20 15:44:53,2016-07-20 15:45:40,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-20 16:07:47,2016-07-20 16:08:34,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-20 16:39:58,2016-07-20 16:40:45,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-20 17:06:41,2016-07-20 17:07:28,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-20 18:03:00,2016-07-20 18:03:47,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-20 18:15:49,2016-07-20 18:16:37,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-20 19:49:08,2016-07-20 19:49:55,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-20 22:05:54,2016-07-20 22:06:41,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-20 23:21:53,2016-07-20 23:22:40,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-21 10:35:34,2016-07-21 10:36:21,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-21 10:50:55,2016-07-21 10:51:43,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-21 12:24:09,2016-07-21 12:24:57,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-21 13:27:27,2016-07-21 13:28:15,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-21 14:06:58,2016-07-21 14:07:46,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-21 16:22:27,2016-07-21 16:23:15,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-22 19:44:24,2016-07-22 19:45:12,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-22 22:16:39,2016-07-22 22:17:27,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-23 00:01:31,2016-07-23 00:02:18,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-23 01:16:15,2016-07-23 01:17:02,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-23 04:47:06,2016-07-23 04:47:53,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-23 08:28:04,2016-07-23 08:28:51,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-23 09:31:25,2016-07-23 09:32:13,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-24 03:07:47,2016-07-24 03:08:35,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-24 07:59:47,2016-07-24 08:00:34,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-24 09:25:29,2016-07-24 09:26:16,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-24 12:13:03,2016-07-24 12:13:50,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-24 12:33:59,2016-07-24 12:34:47,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-24 12:58:58,2016-07-24 12:59:45,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-24 14:04:33,2016-07-24 14:05:20,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-24 23:01:37,2016-07-24 23:02:25,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-25 00:09:41,2016-07-25 00:10:29,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-25 03:59:50,2016-07-25 04:00:38,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-25 04:41:39,2016-07-25 04:42:27,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-26 04:38:06,2016-07-26 04:38:53,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-26 07:02:36,2016-07-26 07:03:24,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-26 11:07:11,2016-07-26 11:10:32,00:03:21,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-07-26 11:10:32,2016-07-26 11:14:41,00:04:09,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-26 11:14:41,2016-07-26 13:53:35,02:38:54,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-07-26 12:54:37,2016-07-26 13:53:35,00:58:58,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-07-26 12:55:30,2016-07-26 13:53:26,00:57:56,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-07-26 13:53:35,2016-07-26 13:58:54,00:05:19,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-26 13:58:54,2016-07-27 15:27:14,25:28:20,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-07-26 17:44:19,2016-07-26 17:45:07,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-26 20:05:38,2016-07-26 20:06:26,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-26 23:09:55,2016-07-26 23:10:43,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-27 09:43:08,2016-07-27 09:45:25,00:02:17,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-07-27 14:50:21,2016-07-27 16:40:20,01:49:59,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-07-27 14:51:17,2016-07-27 16:40:15,01:48:58,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-07-27 15:50:12,2016-07-27 16:13:36,00:23:24,Warning,716,Battery charge cycle axis 1 error,,Warnings (27),
+2016-07-27 15:50:12,2016-07-27 16:13:36,00:23:24,Warning,717,Battery charge cycle axis 2 error,,Warnings (27),
+2016-07-27 15:50:12,2016-07-27 16:13:36,00:23:24,Warning,718,Battery charge cycle axis 3 error,,Warnings (27),
+2016-07-27 16:40:20,2016-07-27 16:43:46,00:03:26,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-27 16:43:46,2016-07-27 16:45:52,00:02:06,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-07-27 16:45:52,2016-07-27 16:50:27,00:04:35,Informational,0,System OK,,System OK (32),Full Performance
+2016-07-27 16:50:27,2016-08-09 15:19:50,310:29:23,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-07-27 23:39:39,2016-07-27 23:40:27,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 00:04:45,2016-07-28 00:05:38,00:00:53,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 00:24:15,2016-07-28 00:25:02,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 02:10:10,2016-07-28 02:10:57,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 02:55:51,2016-07-28 02:56:39,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 03:51:05,2016-07-28 03:51:53,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 04:10:21,2016-07-28 04:11:08,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 06:22:50,2016-07-28 06:23:38,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 07:08:24,2016-07-28 07:09:12,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 08:12:05,2016-07-28 08:12:52,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 08:20:14,2016-07-28 08:21:01,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 08:36:23,2016-07-28 08:37:11,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 08:51:53,2016-07-28 08:52:41,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 16:36:23,2016-07-28 16:37:10,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 19:07:31,2016-07-28 19:08:18,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-28 20:58:58,2016-07-28 20:59:46,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-29 07:43:28,2016-07-29 07:44:16,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-29 07:47:12,2016-07-29 07:59:12,00:12:00,Stop,6200,Cable autounwind,,Operating states  (28),Technical Standby
+2016-07-29 12:14:51,2016-07-29 12:15:38,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-29 21:09:38,2016-07-29 21:10:25,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-29 22:30:05,2016-07-29 22:30:52,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-29 22:59:09,2016-07-29 22:59:56,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-30 05:31:37,2016-07-30 05:32:24,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-30 14:52:20,2016-07-30 14:53:07,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-30 14:56:51,2016-07-30 14:57:38,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-30 15:14:02,2016-07-30 15:14:50,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-30 15:35:24,2016-07-30 15:36:11,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-30 16:55:00,2016-07-30 16:55:47,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-07-30 17:08:34,2016-07-30 17:09:22,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 09:19:09,2016-08-01 09:19:56,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 09:34:23,2016-08-01 09:35:10,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 09:50:28,2016-08-01 09:51:15,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 10:04:25,2016-08-01 10:05:13,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 10:34:32,2016-08-01 10:35:19,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 11:13:19,2016-08-01 11:14:06,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 11:48:57,2016-08-01 11:49:44,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 13:08:20,2016-08-01 13:26:17,00:17:57,Stop,6200,Cable autounwind,,Operating states  (28),Technical Standby
+2016-08-01 14:08:49,2016-08-01 14:09:36,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 15:10:11,2016-08-01 15:10:58,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 15:42:53,2016-08-01 15:43:41,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 16:18:24,2016-08-01 16:19:12,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 16:48:08,2016-08-01 16:48:55,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 17:03:25,2016-08-01 17:04:13,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 17:26:37,2016-08-01 17:27:24,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 17:39:06,2016-08-01 17:39:53,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 18:06:55,2016-08-01 18:07:42,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 19:32:06,2016-08-01 19:32:53,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 21:02:07,2016-08-01 21:02:55,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-01 21:39:35,2016-08-01 21:40:22,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-02 08:06:30,2016-08-02 08:07:17,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-02 08:44:41,2016-08-02 08:45:28,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-03 02:45:50,2016-08-03 02:46:37,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-03 03:31:17,2016-08-03 03:32:05,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-04 06:22:19,2016-08-04 06:24:36,00:02:17,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-08-04 23:34:48,2016-08-04 23:35:35,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-05 01:59:57,2016-08-05 02:00:44,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-05 03:40:49,2016-08-05 03:41:36,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-05 11:45:34,2016-08-05 11:46:21,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-05 12:06:52,2016-08-05 12:07:39,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-05 12:38:24,2016-08-05 12:40:41,00:02:17,Informational,65,Absence of wind during run-up,,Operating states  (28),Out of Environmental Specification
+2016-08-05 13:11:41,2016-08-05 13:12:28,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-05 14:15:48,2016-08-05 14:16:35,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-06 07:44:43,2016-08-06 07:45:30,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-07 04:18:57,2016-08-07 04:19:45,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-07 05:14:02,2016-08-07 05:14:50,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-07 05:24:35,2016-08-07 05:25:23,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-07 05:32:53,2016-08-07 05:33:40,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-09 00:03:29,2016-08-09 00:04:16,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-09 11:05:54,2016-08-09 11:06:42,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-09 11:57:52,2016-08-09 11:58:39,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-09 12:26:20,2016-08-09 12:27:07,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-09 15:19:40,2016-08-18 13:15:12,213:55:32,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-08-09 16:27:40,2016-08-09 16:28:27,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-09 16:51:49,2016-08-09 16:52:36,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-09 17:10:42,2016-08-09 17:11:30,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-09 17:50:46,2016-08-09 17:51:33,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-09 18:50:23,2016-08-09 19:02:14,00:11:51,Stop,6200,Cable autounwind,,Operating states  (28),Technical Standby
+2016-08-09 21:56:49,2016-08-09 21:57:36,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-10 04:29:06,2016-08-10 04:29:54,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-10 14:04:18,2016-08-10 14:05:05,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-10 15:22:12,2016-08-10 15:22:59,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-12 06:00:49,2016-08-12 06:03:06,00:02:17,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-08-14 05:54:58,2016-08-14 05:55:45,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-14 07:25:46,2016-08-14 07:26:33,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-14 10:22:09,2016-08-14 10:22:56,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-14 13:21:56,2016-08-14 13:22:43,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-14 20:05:42,2016-08-14 20:07:54,00:02:12,Informational,65,Absence of wind during run-up,,Operating states  (28),Out of Environmental Specification
+2016-08-14 20:55:20,2016-08-14 20:56:08,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-14 21:44:08,2016-08-14 21:44:55,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-15 08:46:23,2016-08-15 08:47:10,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-15 10:42:34,2016-08-15 10:43:21,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-15 12:14:29,2016-08-15 12:15:16,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-15 13:07:36,2016-08-15 13:08:23,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-15 21:34:16,2016-08-15 21:35:04,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-16 01:03:44,2016-08-16 01:04:31,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-16 01:59:03,2016-08-16 01:59:51,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-16 06:16:06,2016-08-16 06:16:54,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-16 08:21:53,2016-08-16 08:22:40,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-16 11:47:06,2016-08-16 11:47:54,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-16 11:58:32,2016-08-16 11:59:19,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-16 12:08:18,2016-08-16 12:09:06,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-16 12:45:44,2016-08-16 12:46:32,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-16 12:55:46,2016-08-16 12:56:33,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-16 13:03:05,2016-08-16 13:03:52,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-17 23:37:05,2016-08-17 23:37:52,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-18 01:06:29,2016-08-18 01:07:17,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-18 07:44:03,2016-08-18 13:20:03,05:36:00,Stop,3500,Grid loss,,External stop (grid) (4),Out of Electrical Specification
+2016-08-18 13:16:21,2016-08-18 16:55:42,03:39:21,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-08-18 13:22:08,2016-08-18 13:32:08,00:10:00,Warning,5720,Brake accumulator defect,,Warnings (27),
+2016-08-18 13:22:08,2016-08-18 13:24:08,00:02:00,Stop,3000,Frequency converter not ready,,Generator and Converter errors (20),Forced outage
+2016-08-18 13:26:08,2016-08-18 13:28:08,00:02:00,Stop,3000,Frequency converter not ready,,Generator and Converter errors (20),Forced outage
+2016-08-18 13:30:25,2016-08-18 13:32:25,00:02:00,Stop,3000,Frequency converter not ready,,Generator and Converter errors (20),Forced outage
+2016-08-18 16:55:42,2016-08-19 13:40:54,20:45:12,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-08-18 16:55:42,2016-08-18 16:55:42,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-19 13:40:54,2016-08-19 13:41:06,00:00:12,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-19 13:41:06,2016-08-19 13:43:52,00:02:46,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-08-19 13:43:41,2016-08-19 13:44:32,00:00:51,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-08-19 13:44:32,2016-08-19 13:44:33,00:00:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-19 13:44:33,2016-08-19 16:04:15,02:19:42,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-08-19 16:04:04,2016-08-19 16:06:22,00:02:18,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-08-19 16:06:22,2016-08-19 16:06:23,00:00:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-19 16:06:23,2016-08-20 09:08:00,17:01:37,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-08-20 06:45:14,2016-08-20 08:39:41,01:54:27,Stop,8000,Park master stop,,Remote stop (30),Requested Shutdown
+2016-08-20 09:07:50,2016-08-20 09:08:15,00:00:25,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-08-20 09:08:15,2016-08-22 16:41:43,55:33:28,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-08-20 09:08:15,2016-08-20 09:08:15,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-20 17:56:06,2016-08-20 17:56:54,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-22 00:27:24,2016-08-22 00:28:12,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-22 01:42:59,2016-08-22 01:43:46,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-22 03:23:27,2016-08-22 03:24:15,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-22 07:49:19,2016-08-22 07:50:06,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-22 11:30:13,2016-08-22 11:31:01,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-22 13:47:28,2016-08-22 13:48:16,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-22 14:03:19,2016-08-22 14:04:06,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-22 14:11:50,2016-08-22 14:22:37,00:10:47,Stop,4520,Tower oscillation X level 1,,Safety stop of WEC (15),Forced outage
+2016-08-22 16:19:30,2016-08-22 17:05:00,00:45:30,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-08-22 16:20:01,2016-08-22 16:41:27,00:21:26,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-08-22 16:37:34,2016-08-22 16:41:43,00:04:09,Warning,5720,Brake accumulator defect,,Warnings (27),
+2016-08-22 16:38:41,2016-08-22 16:38:48,00:00:07,Warning,2655,Overload generator fan 3,,Warnings (27),Forced outage
+2016-08-22 16:38:44,2016-08-22 16:39:45,00:01:01,Warning,2550,Overload generator fan 1,,Warnings (27),Forced outage
+2016-08-22 16:39:47,2016-08-22 16:41:39,00:01:52,Warning,2550,Overload generator fan 1,,Warnings (27),Forced outage
+2016-08-22 16:41:43,2016-08-22 16:42:30,00:00:47,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-22 16:42:49,2016-08-22 16:43:30,00:00:41,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-22 16:43:59,2016-08-22 16:44:01,00:00:02,Warning,2655,Overload generator fan 3,,Warnings (27),Forced outage
+2016-08-22 16:44:01,2016-08-22 16:59:33,00:15:32,Warning,2650,Overload generator fan 2,,Warnings (27),Forced outage
+2016-08-22 16:44:03,2016-08-22 16:59:33,00:15:30,Warning,2550,Overload generator fan 1,,Warnings (27),Forced outage
+2016-08-22 16:46:48,2016-08-22 17:05:04,00:18:16,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-08-22 17:05:04,2016-08-22 17:07:01,00:01:57,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-22 17:07:01,2016-08-24 08:38:32,39:31:31,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-08-22 20:08:19,2016-08-22 20:09:06,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-22 21:54:07,2016-08-22 21:54:54,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 01:29:46,2016-08-23 01:30:34,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 01:50:52,2016-08-23 01:51:39,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 04:38:52,2016-08-23 04:41:10,00:02:18,Informational,65,Absence of wind during run-up,,Operating states  (28),Out of Environmental Specification
+2016-08-23 06:34:49,2016-08-23 06:35:36,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 07:48:54,2016-08-23 07:49:42,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 09:12:05,2016-08-23 09:12:52,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 09:45:24,2016-08-23 09:46:12,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 10:31:10,2016-08-23 10:31:57,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 11:35:23,2016-08-23 11:36:10,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 12:40:13,2016-08-23 12:41:01,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 17:02:07,2016-08-23 17:02:54,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 20:44:11,2016-08-23 20:44:58,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 21:12:27,2016-08-23 21:13:15,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 21:58:42,2016-08-23 21:59:29,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 22:50:54,2016-08-23 22:51:41,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 23:08:58,2016-08-23 23:09:46,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-23 23:34:16,2016-08-23 23:35:03,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-24 00:22:00,2016-08-24 00:22:48,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-24 00:30:49,2016-08-24 00:31:37,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-24 08:21:00,2016-08-24 08:38:32,00:17:32,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-08-24 08:21:23,2016-08-24 08:38:29,00:17:06,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-08-24 08:38:32,2016-08-24 08:41:29,00:02:57,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-24 08:41:29,2016-08-25 14:36:36,29:55:07,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-08-24 11:53:56,2016-08-24 11:54:44,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-24 15:35:25,2016-08-24 15:36:12,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-24 17:36:02,2016-08-24 17:36:49,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-24 22:43:08,2016-08-24 22:43:55,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-25 02:07:46,2016-08-25 02:08:33,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-25 07:46:24,2016-08-25 07:47:12,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-25 08:21:18,2016-08-25 08:22:05,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-25 08:57:18,2016-08-25 08:58:05,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-25 09:19:52,2016-08-25 09:20:40,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-25 09:31:29,2016-08-25 09:32:17,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-25 10:02:58,2016-08-25 10:03:46,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-25 11:40:14,2016-08-25 14:36:42,02:56:28,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-08-25 11:40:24,2016-08-25 14:36:41,02:56:17,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-08-25 14:36:42,2016-08-25 16:05:55,01:29:13,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-25 16:05:55,2016-08-26 08:22:20,16:16:25,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-08-25 16:09:05,2016-08-25 16:09:53,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-25 18:54:19,2016-08-25 18:56:37,00:02:18,Informational,65,Absence of wind during run-up,,Operating states  (28),Out of Environmental Specification
+2016-08-25 20:29:32,2016-08-25 20:30:19,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-25 21:06:49,2016-08-25 21:07:37,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-25 21:41:38,2016-08-25 21:42:25,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-25 22:16:51,2016-08-25 22:17:38,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-25 23:20:20,2016-08-25 23:21:08,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-26 01:06:07,2016-08-26 01:06:54,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-26 01:22:13,2016-08-26 01:23:01,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-26 02:08:35,2016-08-26 02:09:22,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-26 04:11:50,2016-08-26 04:12:37,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-26 05:47:51,2016-08-26 05:48:38,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-26 06:34:24,2016-08-26 06:35:11,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-26 08:22:10,2016-08-26 08:23:04,00:00:54,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-08-26 08:23:04,2016-08-26 08:23:05,00:00:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-26 08:23:05,2016-08-31 08:38:07,120:15:02,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-08-26 20:40:29,2016-08-26 20:41:16,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-27 00:00:39,2016-08-27 00:01:26,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-27 00:51:41,2016-08-27 00:52:28,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-27 01:25:35,2016-08-27 01:26:23,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-27 03:42:10,2016-08-27 03:42:57,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-27 04:18:52,2016-08-27 04:19:39,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-27 05:17:36,2016-08-27 05:18:23,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-27 05:47:17,2016-08-27 05:48:05,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-27 07:27:02,2016-08-27 07:27:49,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-27 08:29:29,2016-08-27 08:31:38,00:02:09,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-08-27 10:14:18,2016-08-27 10:15:05,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-27 10:57:50,2016-08-27 10:58:38,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-27 11:13:04,2016-08-27 11:13:51,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-27 11:27:03,2016-08-27 11:27:51,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-27 11:38:25,2016-08-27 11:39:12,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-28 02:28:51,2016-08-28 02:29:39,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-28 03:15:45,2016-08-28 03:16:32,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-28 04:49:49,2016-08-28 04:50:36,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-28 05:26:17,2016-08-28 05:27:05,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-28 07:28:00,2016-08-28 07:28:47,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-28 09:48:12,2016-08-28 09:48:59,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-28 11:55:10,2016-08-28 11:55:57,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-28 16:03:40,2016-08-28 16:04:27,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-28 16:13:28,2016-08-28 16:14:15,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-28 19:25:57,2016-08-28 19:26:44,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-29 03:55:37,2016-08-29 03:56:25,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-29 07:34:11,2016-08-29 07:34:58,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-29 07:52:13,2016-08-29 07:53:00,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-29 10:48:12,2016-08-29 10:48:59,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-30 03:31:23,2016-08-30 03:32:10,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-08-31 07:29:53,2016-08-31 10:22:48,02:52:55,Stop,8000,Park master stop,,Remote stop (30),Requested Shutdown
+2016-08-31 07:52:04,2016-08-31 07:52:04,00:00:00,Informational,3543,High frequency - P reduction,,Warnings (27),Full Performance
+2016-08-31 08:37:57,2016-08-31 08:39:02,00:01:05,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-08-31 10:22:48,2016-08-31 10:25:54,00:03:06,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-31 10:25:54,2016-08-31 10:26:35,00:00:41,Stop,8000,Park master stop,,Remote stop (30),Requested Shutdown
+2016-08-31 10:26:35,2016-08-31 10:28:47,00:02:12,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-31 10:28:47,2016-08-31 13:35:01,03:06:14,Stop,3500,Grid loss,,External stop (grid) (4),Out of Electrical Specification
+2016-08-31 13:35:01,2016-08-31 13:39:25,00:04:24,Informational,0,System OK,,System OK (32),Full Performance
+2016-08-31 13:39:25,2016-09-06 11:13:42,141:34:17,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-03 16:50:04,2016-09-03 16:50:51,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-03 17:22:56,2016-09-03 17:23:43,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-03 19:01:01,2016-09-03 19:01:48,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-03 21:03:40,2016-09-03 21:04:27,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-03 22:53:27,2016-09-03 22:54:14,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-03 23:34:24,2016-09-03 23:35:11,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-04 01:11:59,2016-09-04 01:12:46,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-04 08:59:54,2016-09-04 09:00:41,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-04 12:57:35,2016-09-04 12:58:23,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-04 20:01:02,2016-09-04 20:01:50,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-06 10:04:13,2016-09-06 11:13:42,01:09:29,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-09-06 11:13:42,2016-09-06 11:17:55,00:04:13,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-06 11:17:55,2016-09-12 14:48:52,147:30:57,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-06 14:25:01,2016-09-06 14:25:48,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-06 17:23:54,2016-09-06 17:24:41,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-07 13:32:40,2016-09-07 13:34:57,00:02:17,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-09-07 18:38:43,2016-09-07 18:39:30,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-07 19:57:44,2016-09-07 19:58:32,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-10 02:02:43,2016-09-10 02:03:30,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-10 12:36:11,2016-09-10 12:36:58,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-10 12:51:17,2016-09-10 12:52:04,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-10 13:13:43,2016-09-10 13:14:31,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-10 14:10:28,2016-09-10 14:11:15,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-12 14:37:40,2016-09-12 14:49:02,00:11:22,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-09-12 14:49:02,2016-09-12 14:50:54,00:01:52,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-12 14:50:54,2016-09-16 11:08:07,92:17:13,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-13 10:16:12,2016-09-13 10:16:59,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-13 10:54:08,2016-09-13 10:54:55,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-14 13:46:21,2016-09-14 13:48:38,00:02:17,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-09-14 23:38:17,2016-09-14 23:39:05,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-15 03:15:57,2016-09-15 03:16:45,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-15 16:54:51,2016-09-15 16:55:38,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-15 18:26:14,2016-09-15 18:27:02,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-15 20:37:06,2016-09-15 20:37:53,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-15 23:17:27,2016-09-15 23:18:14,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-16 00:56:27,2016-09-16 00:57:14,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-16 02:51:44,2016-09-16 02:52:31,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-16 03:33:33,2016-09-16 03:34:20,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-16 10:19:13,2016-09-16 10:23:12,00:03:59,Stop,8000,Park master stop,,Remote stop (30),Requested Shutdown
+2016-09-16 11:07:57,2016-09-16 11:09:48,00:01:51,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-09-16 11:09:48,2016-09-16 11:12:45,00:02:57,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-16 11:09:48,2016-09-16 11:09:48,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:12:35,2016-09-16 11:13:19,00:00:44,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-09-16 11:13:19,2016-09-16 11:14:54,00:01:35,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-16 11:13:19,2016-09-16 11:13:19,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:14:44,2016-09-16 11:15:06,00:00:22,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-09-16 11:15:06,2016-09-16 11:33:45,00:18:39,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-16 11:15:06,2016-09-16 11:15:06,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:31:45,2016-09-16 12:36:29,01:04:44,Stop,3110,Frequency converter error,,Generator and Converter errors (20),Forced outage
+2016-09-16 11:33:45,2016-09-16 11:33:45,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:33:57,2016-09-16 11:33:57,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:34:12,2016-09-16 11:34:12,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:34:31,2016-09-16 11:34:31,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:35:09,2016-09-16 11:35:09,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:36:20,2016-09-16 11:36:20,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:36:30,2016-09-16 11:36:30,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:37:18,2016-09-16 11:37:19,00:00:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:38:38,2016-09-16 11:38:39,00:00:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:40:03,2016-09-16 11:40:03,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:40:46,2016-09-16 11:40:46,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:42:50,2016-09-16 11:42:50,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:44:53,2016-09-16 11:44:53,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:46:44,2016-09-16 11:46:44,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:53:25,2016-09-16 11:53:25,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:53:56,2016-09-16 11:53:56,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:54:12,2016-09-16 11:54:12,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:55:02,2016-09-16 11:55:02,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:55:04,2016-09-16 11:55:04,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:55:33,2016-09-16 11:55:33,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 11:57:10,2016-09-16 11:57:10,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 12:35:25,2016-09-16 12:35:25,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 12:36:21,2016-09-16 12:36:21,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 12:36:29,2016-09-16 12:41:01,00:04:32,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-16 12:41:01,2016-09-19 13:58:05,73:17:04,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-16 15:24:53,2016-09-16 15:25:40,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-16 16:08:59,2016-09-16 16:09:46,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-16 16:29:02,2016-09-16 16:29:49,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-16 16:46:03,2016-09-16 16:46:50,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-17 08:30:43,2016-09-17 08:31:30,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-17 16:53:53,2016-09-17 16:54:41,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-17 17:11:30,2016-09-17 17:12:18,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-17 19:40:59,2016-09-17 19:41:46,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-17 20:57:39,2016-09-17 20:58:26,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-17 21:47:54,2016-09-17 21:48:42,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-17 23:10:01,2016-09-17 23:10:48,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-18 01:19:54,2016-09-18 01:20:41,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-18 02:23:23,2016-09-18 02:24:11,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-18 03:18:40,2016-09-18 03:19:28,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-18 04:31:28,2016-09-18 04:32:15,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-18 07:46:59,2016-09-18 07:47:47,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-18 18:48:42,2016-09-18 18:49:29,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-18 19:31:41,2016-09-18 19:32:29,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-18 21:50:30,2016-09-18 21:51:17,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-19 09:00:08,2016-09-19 09:00:55,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-19 10:11:01,2016-09-19 10:22:51,00:11:50,Stop,6200,Cable autounwind,,Operating states  (28),Technical Standby
+2016-09-19 13:45:08,2016-09-19 13:58:05,00:12:57,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-09-19 13:45:51,2016-09-19 13:58:02,00:12:11,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-09-19 13:58:05,2016-09-19 14:40:00,00:41:55,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-19 14:40:00,2016-09-20 13:17:02,22:37:02,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-19 15:00:53,2016-09-19 15:01:41,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-19 22:28:05,2016-09-19 22:28:52,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-20 10:42:06,2016-09-20 10:42:53,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-20 10:57:42,2016-09-20 10:58:29,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-20 12:47:03,2016-09-20 13:17:02,00:29:59,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-09-20 12:47:46,2016-09-20 13:16:59,00:29:13,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-09-20 13:17:02,2016-09-20 13:24:34,00:07:32,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-20 13:24:34,2016-09-23 12:39:00,71:14:26,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-20 15:52:33,2016-09-20 15:53:21,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-20 17:05:30,2016-09-20 17:06:18,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-20 21:08:01,2016-09-20 21:08:48,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-21 00:02:42,2016-09-21 00:03:29,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-21 01:19:32,2016-09-21 01:20:19,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-22 01:55:07,2016-09-22 01:55:54,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-22 03:05:54,2016-09-22 03:06:41,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-22 03:49:30,2016-09-22 03:50:17,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-22 06:00:00,2016-09-22 06:02:16,00:02:16,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-09-22 07:31:59,2016-09-22 07:32:47,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-23 07:25:09,2016-09-23 07:25:57,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-23 12:09:42,2016-09-23 12:42:44,00:33:02,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-09-23 12:10:23,2016-09-23 12:42:40,00:32:17,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-09-23 12:42:44,2016-09-23 12:45:15,00:02:31,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-23 12:45:15,2016-09-26 09:45:51,69:00:36,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-26 04:13:32,2016-09-26 04:14:20,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-26 09:11:14,2016-09-26 15:44:49,06:33:35,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-09-26 09:11:59,2016-09-26 15:31:43,06:19:44,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-09-26 11:03:30,2016-09-26 15:16:53,04:13:23,Warning,2125,Timeout brake closed,,Warnings (27),
+2016-09-26 15:44:49,2016-09-26 15:48:58,00:04:09,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-26 15:48:58,2016-09-26 15:54:09,00:05:11,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-26 15:51:19,2016-09-26 15:51:46,00:00:27,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-26 15:54:09,2016-09-26 15:57:13,00:03:04,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-26 15:57:13,2016-09-26 15:58:44,00:01:31,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-26 15:58:44,2016-09-26 16:01:11,00:02:27,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-26 16:01:11,2016-09-26 16:03:11,00:02:00,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-26 16:03:11,2016-09-26 16:05:00,00:01:49,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-26 16:05:00,2016-09-26 16:05:21,00:00:21,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-26 16:05:21,2016-09-26 16:06:50,00:01:29,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-26 16:06:50,2016-09-26 16:15:04,00:08:14,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-26 16:08:49,2016-09-26 16:09:01,00:00:12,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-26 16:11:35,2016-09-26 16:12:34,00:00:59,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-26 16:15:04,2016-09-26 16:16:11,00:01:07,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-26 16:16:11,2016-09-26 16:19:31,00:03:20,Stop,455,Repeating error BP52,,Repeated error  (25),Forced outage
+2016-09-26 16:19:31,2016-09-26 16:26:15,00:06:44,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-26 16:26:15,2016-09-26 16:26:28,00:00:13,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-26 16:26:17,2016-09-26 16:28:17,00:02:00,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-26 16:27:18,2016-09-26 16:27:19,00:00:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-26 16:28:17,2016-09-26 16:39:25,00:11:08,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-26 16:39:25,2016-09-27 07:47:08,15:07:43,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-26 20:37:29,2016-09-26 20:38:17,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-27 07:12:51,2016-09-27 07:47:08,00:34:17,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-09-27 07:47:08,2016-09-27 07:51:17,00:04:09,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 07:51:17,2016-09-27 09:03:05,01:11:48,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 09:02:54,2016-09-27 09:33:40,00:30:46,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-27 09:33:40,2016-09-27 09:37:30,00:03:50,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 09:37:30,2016-09-27 10:00:56,00:23:26,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 10:00:45,2016-09-27 10:02:17,00:01:32,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-27 10:02:17,2016-09-27 10:06:04,00:03:47,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 10:06:04,2016-09-27 10:14:12,00:08:08,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 10:14:01,2016-09-27 10:16:05,00:02:04,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-27 10:16:05,2016-09-27 10:19:54,00:03:49,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 10:19:54,2016-09-27 10:21:23,00:01:29,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 10:21:23,2016-09-27 10:34:00,00:12:37,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 10:34:00,2016-09-27 10:35:20,00:01:20,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 10:35:09,2016-09-27 10:35:59,00:00:50,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-27 10:35:59,2016-09-27 10:40:09,00:04:10,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 10:40:09,2016-09-27 10:41:00,00:00:51,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 10:41:00,2016-09-27 10:46:25,00:05:25,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 10:46:25,2016-09-27 10:47:21,00:00:56,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 10:47:10,2016-09-27 10:48:02,00:00:52,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-27 10:48:02,2016-09-27 10:51:51,00:03:49,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 10:51:51,2016-09-27 10:53:18,00:01:27,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 10:53:18,2016-09-27 11:01:25,00:08:07,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 11:01:25,2016-09-27 11:09:49,00:08:24,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 11:09:49,2016-09-27 11:10:29,00:00:40,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 11:10:29,2016-09-27 11:23:00,00:12:31,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 11:22:49,2016-09-27 11:24:40,00:01:51,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-27 11:24:40,2016-09-27 11:28:38,00:03:58,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 11:28:38,2016-09-27 11:29:57,00:01:19,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 11:29:57,2016-09-27 11:38:04,00:08:07,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 11:38:04,2016-09-27 11:42:15,00:04:11,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 11:42:04,2016-09-27 11:43:37,00:01:33,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-27 11:43:37,2016-09-27 11:47:37,00:04:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 11:47:37,2016-09-27 11:48:55,00:01:18,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 11:48:55,2016-09-27 11:50:35,00:01:40,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 11:50:35,2016-09-27 11:51:06,00:00:31,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 11:50:55,2016-09-27 11:54:23,00:03:28,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-27 11:52:30,2016-09-27 11:52:31,00:00:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 11:54:23,2016-09-27 11:58:18,00:03:55,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 11:58:18,2016-09-27 11:59:41,00:01:23,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 11:59:41,2016-09-27 12:03:12,00:03:31,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 12:03:12,2016-09-27 12:10:24,00:07:12,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 12:10:13,2016-09-27 12:12:20,00:02:07,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-27 12:12:20,2016-09-27 12:16:09,00:03:49,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 12:16:09,2016-09-27 13:49:11,01:33:02,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 13:49:00,2016-09-27 13:51:00,00:02:00,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-27 13:51:00,2016-09-27 13:54:50,00:03:50,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-27 13:54:50,2016-09-27 13:56:17,00:01:27,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-27 13:56:17,2016-09-28 07:18:21,17:22:04,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-28 07:18:21,2016-09-28 12:46:47,05:28:26,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-09-28 07:19:19,2016-09-28 11:19:56,04:00:37,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-09-28 08:47:13,2016-09-28 08:47:17,00:00:04,Warning,2550,Overload generator fan 1,,Warnings (27),Forced outage
+2016-09-28 09:13:07,2016-09-28 10:50:56,01:37:49,Warning,716,Battery charge cycle axis 1 error,,Warnings (27),
+2016-09-28 09:13:07,2016-09-28 10:50:56,01:37:49,Warning,717,Battery charge cycle axis 2 error,,Warnings (27),
+2016-09-28 09:13:07,2016-09-28 10:50:56,01:37:49,Warning,718,Battery charge cycle axis 3 error,,Warnings (27),
+2016-09-28 09:31:08,2016-09-28 11:08:24,01:37:16,Warning,2125,Timeout brake closed,,Warnings (27),
+2016-09-28 12:46:47,2016-09-28 12:47:59,00:01:12,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-28 12:47:59,2016-09-28 12:48:30,00:00:31,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-09-28 12:48:30,2016-09-29 10:28:37,21:40:07,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-29 10:28:37,2016-09-29 10:32:55,00:04:18,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-29 10:32:45,2016-09-29 10:34:23,00:01:38,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-29 10:34:23,2016-09-29 10:52:38,00:18:15,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-29 10:52:38,2016-09-29 12:59:17,02:06:39,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-29 12:59:07,2016-09-29 13:02:41,00:03:34,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-09-29 13:02:41,2016-09-29 13:06:10,00:03:29,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-29 13:06:10,2016-09-29 13:14:37,00:08:27,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-09-29 13:07:21,2016-09-29 13:17:58,00:10:37,Stop,4510,Tower oscillation Y level 1,,Safety stop of WEC (15),Forced outage
+2016-09-29 13:17:58,2016-09-30 07:10:21,17:52:23,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-30 07:10:21,2016-09-30 11:05:23,03:55:02,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-09-30 07:11:10,2016-09-30 10:50:39,03:39:29,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-09-30 07:51:19,2016-09-30 08:31:35,00:40:16,Warning,716,Battery charge cycle axis 1 error,,Warnings (27),
+2016-09-30 07:51:19,2016-09-30 08:31:35,00:40:16,Warning,717,Battery charge cycle axis 2 error,,Warnings (27),
+2016-09-30 07:51:19,2016-09-30 08:31:35,00:40:16,Warning,718,Battery charge cycle axis 3 error,,Warnings (27),
+2016-09-30 08:33:07,2016-09-30 08:34:37,00:01:30,Warning,716,Battery charge cycle axis 1 error,,Warnings (27),
+2016-09-30 08:33:07,2016-09-30 08:34:37,00:01:30,Warning,717,Battery charge cycle axis 2 error,,Warnings (27),
+2016-09-30 08:33:07,2016-09-30 08:34:37,00:01:30,Warning,718,Battery charge cycle axis 3 error,,Warnings (27),
+2016-09-30 08:35:38,2016-09-30 09:04:46,00:29:08,Warning,716,Battery charge cycle axis 1 error,,Warnings (27),
+2016-09-30 08:35:38,2016-09-30 09:04:46,00:29:08,Warning,717,Battery charge cycle axis 2 error,,Warnings (27),
+2016-09-30 08:35:38,2016-09-30 09:04:46,00:29:08,Warning,718,Battery charge cycle axis 3 error,,Warnings (27),
+2016-09-30 08:38:38,2016-09-30 10:53:43,02:15:05,Warning,2125,Timeout brake closed,,Warnings (27),
+2016-09-30 09:06:17,2016-09-30 09:08:34,00:02:17,Warning,716,Battery charge cycle axis 1 error,,Warnings (27),
+2016-09-30 09:06:17,2016-09-30 09:08:34,00:02:17,Warning,717,Battery charge cycle axis 2 error,,Warnings (27),
+2016-09-30 09:06:17,2016-09-30 09:08:34,00:02:17,Warning,718,Battery charge cycle axis 3 error,,Warnings (27),
+2016-09-30 09:12:34,2016-09-30 09:47:21,00:34:47,Warning,716,Battery charge cycle axis 1 error,,Warnings (27),
+2016-09-30 09:12:34,2016-09-30 09:47:21,00:34:47,Warning,717,Battery charge cycle axis 2 error,,Warnings (27),
+2016-09-30 09:12:34,2016-09-30 09:47:21,00:34:47,Warning,718,Battery charge cycle axis 3 error,,Warnings (27),
+2016-09-30 09:48:30,2016-09-30 09:51:49,00:03:19,Warning,716,Battery charge cycle axis 1 error,,Warnings (27),
+2016-09-30 09:48:30,2016-09-30 09:51:49,00:03:19,Warning,717,Battery charge cycle axis 2 error,,Warnings (27),
+2016-09-30 09:48:30,2016-09-30 09:51:49,00:03:19,Warning,718,Battery charge cycle axis 3 error,,Warnings (27),
+2016-09-30 10:50:44,2016-09-30 10:55:22,00:04:38,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-09-30 10:55:26,2016-09-30 10:55:35,00:00:09,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-30 11:05:23,2016-09-30 11:06:30,00:01:07,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-30 11:06:30,2016-09-30 11:07:27,00:00:57,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-09-30 11:07:27,2016-09-30 19:04:07,07:56:40,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-30 19:04:07,2016-09-30 19:14:08,00:10:01,Stop,5760,Hydraulic oil flushing operation,,Operating states  (28),Technical Standby
+2016-09-30 19:04:07,2016-09-30 19:04:54,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-30 19:14:08,2016-09-30 20:09:20,00:55:12,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-30 20:09:20,2016-09-30 20:10:07,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-30 20:10:07,2016-09-30 21:03:39,00:53:32,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-30 21:03:39,2016-09-30 21:04:27,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-30 21:04:27,2016-09-30 23:37:52,02:33:25,Informational,0,System OK,,System OK (32),Full Performance
+2016-09-30 23:37:52,2016-09-30 23:38:39,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-09-30 23:38:39,2016-10-01 01:28:53,01:50:14,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-01 01:28:53,2016-10-01 01:29:40,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-01 01:29:40,2016-10-01 02:28:43,00:59:03,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-01 02:28:43,2016-10-01 02:29:33,00:00:50,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-10-01 02:29:33,2016-10-01 03:47:14,01:17:41,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-01 03:47:14,2016-10-01 03:47:59,00:00:45,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-10-01 03:47:59,2016-10-01 04:10:56,00:22:57,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-01 04:10:56,2016-10-01 04:11:36,00:00:40,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-10-01 04:11:36,2016-10-01 10:29:58,06:18:22,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-01 10:29:58,2016-10-01 10:30:45,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-01 10:30:45,2016-10-01 11:01:25,00:30:40,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-01 11:01:25,2016-10-01 11:02:12,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-01 11:02:12,2016-10-02 08:50:06,21:47:54,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-02 08:50:06,2016-10-02 08:50:53,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-02 08:50:53,2016-10-02 09:21:37,00:30:44,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-02 09:21:37,2016-10-02 09:22:25,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-02 09:22:25,2016-10-02 11:57:31,02:35:06,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-02 11:57:31,2016-10-02 11:58:18,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-02 11:58:18,2016-10-02 12:07:04,00:08:46,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-02 12:07:04,2016-10-02 12:07:51,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-02 12:07:51,2016-10-02 12:50:03,00:42:12,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-02 12:50:03,2016-10-02 12:50:50,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-02 12:50:50,2016-10-02 15:10:38,02:19:48,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-02 15:10:38,2016-10-02 15:11:25,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-02 15:11:25,2016-10-03 00:05:53,08:54:28,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-03 00:05:53,2016-10-05 00:15:12,48:09:19,Warning,7325,Time sync. failed (SNTP error),,Warnings (27),Full Performance
+2016-10-03 01:12:14,2016-10-03 01:13:01,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-05 00:15:12,-,-,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-05 05:50:37,2016-10-05 17:13:13,11:22:36,Stop,3500,Grid loss,,External stop (grid) (4),Out of Electrical Specification
+2016-10-05 05:50:37,2016-10-05 05:50:37,00:00:00,Informational,3543,High frequency - P reduction,,Warnings (27),Full Performance
+2016-10-05 05:50:37,2016-10-05 05:50:37,00:00:00,Informational,3591,Transient voltage peak,,Warnings (27),Full Performance
+2016-10-05 05:50:37,2016-10-05 05:50:38,00:00:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-05 05:50:37,2016-10-05 05:50:37,00:00:00,Informational,3591,Transient voltage peak,,Warnings (27),Full Performance
+2016-10-05 17:08:40,2016-10-05 17:08:54,00:00:14,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-10-05 17:13:13,2016-10-05 17:14:48,00:01:35,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-05 17:14:48,2016-10-05 17:31:50,00:17:02,Stop,21,Manual stop - remote,,Remote stop (30),Forced outage
+2016-10-05 17:31:50,2016-10-06 06:31:18,12:59:28,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-06 06:31:18,2016-10-06 06:32:06,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-06 06:32:06,2016-10-07 10:29:54,27:57:48,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-07 10:29:54,2016-10-07 10:30:41,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-07 10:30:41,2016-10-07 21:57:28,11:26:47,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-07 21:57:28,2016-10-07 21:58:15,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-07 21:58:15,2016-10-08 00:43:56,02:45:41,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-08 00:43:56,2016-10-08 00:44:43,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-08 00:44:43,2016-10-08 01:03:06,00:18:23,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-08 01:03:06,2016-10-08 01:03:53,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-08 01:03:53,2016-10-08 04:14:29,03:10:36,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-08 04:14:29,2016-10-08 04:15:16,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-08 04:15:16,2016-10-08 05:28:56,01:13:40,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-08 05:28:56,2016-10-08 05:29:41,00:00:45,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-10-08 05:29:41,2016-10-08 08:49:43,03:20:02,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-08 08:49:43,2016-10-08 08:50:30,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-08 08:50:30,2016-10-08 13:05:23,04:14:53,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-08 13:05:23,2016-10-08 13:06:11,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-08 13:06:11,2016-10-08 17:52:55,04:46:44,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-08 17:52:55,2016-10-08 17:53:42,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-08 17:53:42,2016-10-09 00:52:09,06:58:27,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-09 00:52:09,2016-10-09 00:52:56,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-09 00:52:56,2016-10-09 05:03:55,04:10:59,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-09 05:03:55,2016-10-09 05:04:42,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-09 05:04:42,2016-10-09 06:43:19,01:38:37,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-09 06:43:19,2016-10-09 06:44:07,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-09 06:44:07,2016-10-09 07:08:21,00:24:14,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-09 07:08:21,2016-10-09 07:09:08,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-09 07:09:08,2016-10-09 07:12:38,00:03:30,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-09 07:12:38,2016-10-09 14:40:51,07:28:13,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-10-09 07:12:50,2016-10-09 07:12:51,00:00:01,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-10-09 07:13:20,2016-10-09 14:25:49,07:12:29,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-10-09 09:30:32,2016-10-09 14:25:57,04:55:25,Warning,2125,Timeout brake closed,,Warnings (27),
+2016-10-09 14:25:57,2016-10-09 14:26:12,00:00:15,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-09 14:40:51,2016-10-09 20:21:09,05:40:18,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-09 20:21:09,2016-10-09 20:23:15,00:02:06,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-10-09 20:23:15,2016-10-10 04:59:49,08:36:34,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-10 04:59:49,2016-10-10 05:00:37,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-10 05:00:37,2016-10-10 05:45:31,00:44:54,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-10 05:45:31,2016-10-10 05:46:19,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-10 05:46:19,2016-10-10 06:00:33,00:14:14,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-10 06:00:33,2016-10-10 06:01:20,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-10 06:01:20,2016-10-10 19:02:16,13:00:56,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-10 19:02:16,2016-10-10 19:03:03,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-10 19:03:03,2016-10-12 15:38:33,44:35:30,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-12 15:38:33,2016-10-12 15:39:21,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-12 15:39:21,2016-10-18 06:19:56,134:40:35,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-18 06:19:56,2016-10-18 06:22:13,00:02:17,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-10-18 06:22:13,2016-10-20 06:35:04,48:12:51,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-20 06:35:04,2016-10-20 06:35:51,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-20 06:35:51,2016-10-20 23:39:19,17:03:28,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-20 23:39:19,2016-10-20 23:40:07,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-20 23:40:07,2016-10-21 03:59:19,04:19:12,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-21 03:59:19,2016-10-21 04:00:06,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-21 04:00:06,2016-10-21 09:47:15,05:47:09,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-21 09:47:15,2016-10-21 09:59:05,00:11:50,Stop,6200,Cable autounwind,,Operating states  (28),Technical Standby
+2016-10-21 09:59:05,2016-10-21 16:18:06,06:19:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-21 16:18:06,2016-10-21 16:18:53,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-21 16:18:53,2016-10-22 03:48:04,11:29:11,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-22 03:48:04,2016-10-22 03:48:52,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-22 03:48:52,2016-10-22 04:25:21,00:36:29,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-22 04:25:21,2016-10-22 04:25:55,00:00:34,Stop,9210,Externally stopped,,External stop (grid) (4),Forced outage
+2016-10-22 04:25:55,2016-10-22 06:03:29,01:37:34,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-22 06:03:29,2016-10-22 06:04:16,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-22 06:04:16,2016-10-22 08:35:52,02:31:36,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-22 08:35:52,2016-10-22 08:36:40,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-22 08:36:40,2016-10-22 10:25:00,01:48:20,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-22 10:25:00,2016-10-22 10:25:48,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-22 10:25:48,2016-10-22 11:17:27,00:51:39,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-22 11:17:27,2016-10-22 11:18:15,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-22 11:18:15,2016-10-22 13:07:08,01:48:53,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-22 13:07:08,2016-10-22 13:07:56,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-22 13:07:56,2016-10-22 13:19:54,00:11:58,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-22 13:19:54,2016-10-22 13:20:41,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-22 13:20:41,2016-10-24 13:09:34,47:48:53,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-24 13:09:34,2016-10-24 13:10:21,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-24 13:10:21,2016-10-24 14:30:17,01:19:56,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-24 14:30:17,2016-10-24 14:31:05,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-24 14:31:05,2016-10-24 16:14:03,01:42:58,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-24 16:14:03,2016-10-24 16:14:51,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-24 16:14:51,2016-10-24 17:43:22,01:28:31,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-24 17:43:22,2016-10-24 17:44:09,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-24 17:44:09,2016-10-25 04:41:44,10:57:35,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-25 04:41:44,2016-10-25 04:42:31,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-25 04:42:31,2016-10-25 08:38:52,03:56:21,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-25 08:38:52,2016-10-25 08:41:02,00:02:10,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-10-25 08:41:02,2016-10-27 01:17:19,40:36:17,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-27 01:17:19,2016-10-27 01:18:07,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-27 01:18:07,2016-10-27 01:32:30,00:14:23,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-27 01:32:30,2016-10-27 01:33:18,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-27 01:33:18,2016-10-27 03:17:41,01:44:23,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-27 03:17:41,2016-10-27 03:18:28,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-27 03:18:28,2016-10-28 18:12:32,38:54:04,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-28 18:12:32,2016-10-28 18:13:19,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-28 18:13:19,2016-10-28 22:56:56,04:43:37,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-28 22:56:56,2016-10-28 22:57:44,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-28 22:57:44,2016-10-29 04:33:46,05:36:02,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 04:33:46,2016-10-29 04:34:33,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 04:34:33,2016-10-29 06:56:37,02:22:04,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 06:56:37,2016-10-29 06:57:24,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 06:57:24,2016-10-29 07:30:00,00:32:36,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 07:30:00,2016-10-29 07:30:47,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 07:30:47,2016-10-29 08:10:17,00:39:30,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 08:10:17,2016-10-29 08:11:04,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 08:11:04,2016-10-29 08:42:00,00:30:56,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 08:42:00,2016-10-29 08:42:47,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 08:42:47,2016-10-29 10:25:40,01:42:53,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 10:25:40,2016-10-29 10:26:27,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 10:26:27,2016-10-29 11:27:48,01:01:21,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 11:27:48,2016-10-29 11:28:35,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 11:28:35,2016-10-29 11:48:26,00:19:51,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 11:48:26,2016-10-29 11:50:44,00:02:18,Informational,65,Absence of wind during run-up,,Operating states  (28),Out of Environmental Specification
+2016-10-29 11:50:44,2016-10-29 12:56:27,01:05:43,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 12:56:27,2016-10-29 12:57:15,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 12:57:15,2016-10-29 13:44:01,00:46:46,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 13:44:01,2016-10-29 13:44:48,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 13:44:48,2016-10-29 14:44:07,00:59:19,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 14:44:07,2016-10-29 14:44:54,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 14:44:54,2016-10-29 15:17:25,00:32:31,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 15:17:25,2016-10-29 15:19:43,00:02:18,Informational,65,Absence of wind during run-up,,Operating states  (28),Out of Environmental Specification
+2016-10-29 15:19:43,2016-10-29 17:58:48,02:39:05,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 17:58:48,2016-10-29 17:59:35,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 17:59:35,2016-10-29 19:55:37,01:56:02,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 19:55:37,2016-10-29 19:56:25,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 19:56:25,2016-10-29 20:09:03,00:12:38,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 20:09:03,2016-10-29 20:09:50,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 20:09:50,2016-10-29 23:20:33,03:10:43,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 23:20:33,2016-10-29 23:21:21,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-29 23:21:21,2016-10-29 23:59:29,00:38:08,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-29 23:59:29,2016-10-30 00:00:16,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-30 00:00:16,2016-10-30 01:21:41,01:21:25,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-30 01:21:41,2016-10-30 01:22:28,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-30 01:22:28,2016-10-30 03:57:42,02:35:14,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-30 03:57:42,2016-10-30 03:58:30,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-30 03:58:30,2016-10-30 10:35:24,06:36:54,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-30 10:35:24,2016-10-30 10:36:11,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-30 10:36:11,2016-10-30 15:43:02,05:06:51,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-30 15:43:02,2016-10-30 15:43:49,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-30 15:43:49,2016-10-30 16:30:20,00:46:31,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-30 16:30:20,2016-10-30 16:31:07,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-30 16:31:07,2016-10-30 16:49:33,00:18:26,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-30 16:49:33,2016-10-30 16:50:20,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-30 16:50:20,2016-10-30 17:23:10,00:32:50,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-30 17:23:10,2016-10-30 17:23:57,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-30 17:23:57,2016-10-30 19:27:13,02:03:16,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-30 19:27:13,2016-10-30 19:28:01,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-30 19:28:01,2016-10-31 00:31:54,05:03:53,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-31 00:31:54,2016-10-31 00:32:41,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-31 00:32:41,2016-10-31 01:37:33,01:04:52,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-31 01:37:33,2016-10-31 01:38:20,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-31 01:38:20,2016-10-31 06:13:53,04:35:33,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-31 06:13:53,2016-10-31 06:14:40,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-31 06:14:40,2016-10-31 09:12:49,02:58:09,Informational,0,System OK,,System OK (32),Full Performance
+2016-10-31 09:12:49,2016-10-31 09:13:37,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-10-31 09:13:37,2016-11-01 10:13:05,24:59:28,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-01 10:13:05,2016-11-01 10:15:22,00:02:17,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-11-01 10:15:22,2016-11-01 12:12:13,01:56:51,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-01 11:35:24,2016-11-01 12:13:55,00:38:31,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-11-01 12:13:55,2016-11-02 11:23:43,23:09:48,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-02 11:23:43,2016-11-02 11:24:39,00:00:56,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-11-02 11:24:39,2016-11-02 18:08:15,06:43:36,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-02 18:08:15,2016-11-02 18:09:03,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-02 18:09:03,2016-11-02 21:22:56,03:13:53,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-02 21:22:56,2016-11-02 21:23:43,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-02 21:23:43,2016-11-02 22:51:50,01:28:07,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-02 22:51:50,2016-11-02 22:52:37,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-02 22:52:37,2016-11-02 23:44:34,00:51:57,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-02 23:44:34,2016-11-02 23:46:52,00:02:18,Informational,65,Absence of wind during run-up,,Operating states  (28),Out of Environmental Specification
+2016-11-02 23:46:52,2016-11-03 00:11:31,00:24:39,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-03 00:11:29,2016-11-03 14:25:47,14:14:18,Stop,3500,Grid loss,,External stop (grid) (4),Out of Electrical Specification
+2016-11-03 00:11:29,2016-11-03 00:11:29,00:00:00,Informational,3543,High frequency - P reduction,,Warnings (27),Full Performance
+2016-11-03 14:12:07,2016-11-03 14:26:28,00:14:21,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-11-03 14:26:28,2016-11-03 14:28:03,00:01:35,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-03 14:28:03,2016-11-03 14:38:03,00:10:00,Warning,5720,Brake accumulator defect,,Warnings (27),
+2016-11-03 14:28:03,2016-11-03 14:30:03,00:02:00,Stop,3000,Frequency converter not ready,,Generator and Converter errors (20),Forced outage
+2016-11-03 14:32:21,2016-11-03 14:34:21,00:02:00,Stop,3000,Frequency converter not ready,,Generator and Converter errors (20),Forced outage
+2016-11-03 14:36:21,2016-11-03 14:38:21,00:02:00,Stop,3000,Frequency converter not ready,,Generator and Converter errors (20),Forced outage
+2016-11-03 14:38:21,2016-11-03 14:40:21,00:02:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-03 14:40:21,2016-11-03 14:57:31,00:17:10,Stop,455,Repeating error BP52,,Repeated error  (25),Forced outage
+2016-11-03 14:40:21,2016-11-03 14:57:31,00:17:10,Warning,5720,Brake accumulator defect,,Warnings (27),
+2016-11-03 14:57:31,2016-11-03 14:59:31,00:02:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-03 14:59:31,2016-11-03 15:09:31,00:10:00,Warning,5720,Brake accumulator defect,,Warnings (27),
+2016-11-03 14:59:31,2016-11-03 15:01:31,00:02:00,Stop,3000,Frequency converter not ready,,Generator and Converter errors (20),Forced outage
+2016-11-03 15:03:42,2016-11-03 15:05:42,00:02:00,Stop,3000,Frequency converter not ready,,Generator and Converter errors (20),Forced outage
+2016-11-03 15:09:31,2016-11-03 20:04:29,04:54:58,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-03 20:04:29,2016-11-03 20:05:17,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-03 20:05:17,2016-11-04 08:39:48,12:34:31,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-04 08:39:48,2016-11-04 08:40:36,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-04 08:40:36,2016-11-04 13:34:41,04:54:05,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-04 13:34:41,2016-11-04 14:08:57,00:34:16,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-11-04 14:08:57,2016-11-05 08:04:05,17:55:08,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-05 08:04:05,2016-11-10 08:57:56,120:53:51,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-11-05 20:36:11,2016-11-05 20:36:21,00:00:10,Warning,6052,High yaw motor current,,Warnings (27),Full Performance
+2016-11-08 09:38:00,2016-11-08 09:38:47,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-08 10:11:13,2016-11-08 10:12:00,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-09 03:57:58,2016-11-09 03:58:46,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-09 08:48:47,2016-11-09 08:49:35,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-09 18:50:50,2016-11-09 18:51:38,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-09 23:55:29,2016-11-09 23:56:17,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-10 08:50:40,2016-11-10 12:20:18,03:29:38,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-11-10 08:51:37,2016-11-10 12:19:20,03:27:43,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-11-10 12:20:18,2016-11-10 12:24:44,00:04:26,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-10 12:24:44,2016-11-10 12:25:35,00:00:51,Warning,9000,P output externally reduced,,Warnings (27),Partial Performance
+2016-11-10 12:25:35,2016-11-11 02:16:25,13:50:50,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-11 02:16:25,2016-11-11 02:17:13,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-11 02:17:13,2016-11-11 06:22:43,04:05:30,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-11 06:22:43,2016-11-11 06:24:52,00:02:09,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-11-11 06:22:47,2016-11-11 08:22:52,02:00:05,Warning,785,Error brake resistor CHP,,Warnings (27),Full Performance
+2016-11-11 08:22:52,2016-11-12 08:38:51,24:15:59,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-12 08:38:51,2016-11-12 08:39:38,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-12 08:39:38,2016-11-13 08:41:22,24:01:44,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-13 08:41:22,2016-11-13 08:42:09,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-13 08:42:09,2016-11-13 10:00:34,01:18:25,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-13 10:00:34,2016-11-13 10:01:22,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-13 10:01:22,2016-11-17 08:49:53,94:48:31,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-17 08:49:53,2016-11-17 08:50:40,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-17 08:50:40,2016-11-18 00:28:47,15:38:07,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 00:28:47,2016-11-18 00:29:34,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 00:29:34,2016-11-18 01:03:44,00:34:10,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 01:03:44,2016-11-18 01:04:31,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 01:04:31,2016-11-18 02:26:03,01:21:32,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 02:26:03,2016-11-18 02:26:51,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 02:26:51,2016-11-18 02:54:31,00:27:40,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 02:54:31,2016-11-18 02:55:18,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 02:55:18,2016-11-18 03:17:35,00:22:17,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 03:17:35,2016-11-18 03:18:22,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 03:18:22,2016-11-18 04:33:18,01:14:56,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 04:33:18,2016-11-18 04:34:05,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 04:34:05,2016-11-18 06:29:47,01:55:42,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 06:29:47,2016-11-18 06:32:04,00:02:17,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-11-18 06:32:04,2016-11-18 09:46:36,03:14:32,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 09:46:36,2016-11-18 09:47:23,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 09:47:23,2016-11-18 10:24:20,00:36:57,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 10:24:20,2016-11-18 10:25:07,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 10:25:07,2016-11-18 15:26:55,05:01:48,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 15:26:55,2016-11-18 15:27:43,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 15:27:43,2016-11-18 17:56:26,02:28:43,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 17:56:26,2016-11-18 17:57:13,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 17:57:13,2016-11-18 19:37:31,01:40:18,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 19:37:31,2016-11-18 19:38:19,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 19:38:19,2016-11-18 20:20:47,00:42:28,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 20:20:47,2016-11-18 20:21:34,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 20:21:34,2016-11-18 20:54:47,00:33:13,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 20:54:47,2016-11-18 20:55:35,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 20:55:35,2016-11-18 21:52:32,00:56:57,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-18 21:52:32,2016-11-18 21:53:19,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-18 21:53:19,2016-11-19 02:39:25,04:46:06,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-19 02:39:25,2016-11-19 02:40:12,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-19 02:40:12,2016-11-19 06:53:48,04:13:36,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-19 06:53:48,2016-11-19 06:54:35,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-19 06:54:35,2016-11-19 07:15:25,00:20:50,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-19 07:15:25,2016-11-19 07:16:13,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-19 07:16:13,2016-11-19 08:23:19,01:07:06,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-19 08:23:19,2016-11-19 08:24:07,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-19 08:24:07,2016-11-19 08:58:34,00:34:27,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-19 08:58:34,2016-11-19 08:59:21,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-19 08:59:21,2016-11-19 12:03:34,03:04:13,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-19 12:03:34,2016-11-19 12:04:21,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-19 12:04:21,2016-11-19 16:17:58,04:13:37,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-19 16:17:57,2016-11-19 22:51:04,06:33:07,Stop,3500,Grid loss,,External stop (grid) (4),Out of Electrical Specification
+2016-11-19 16:17:57,2016-11-19 16:17:57,00:00:00,Informational,3543,High frequency - P reduction,,Warnings (27),Full Performance
+2016-11-19 22:51:04,2016-11-19 22:53:09,00:02:05,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-19 22:53:09,2016-11-20 00:12:04,01:18:55,Stop,455,Repeating error BP52,,Repeated error  (25),Forced outage
+2016-11-19 22:53:09,2016-11-20 00:12:04,01:18:55,Warning,5720,Brake accumulator defect,,Warnings (27),
+2016-11-20 00:12:04,2016-11-20 01:55:23,01:43:19,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 01:55:23,2016-11-20 01:56:10,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-20 01:56:10,2016-11-20 03:40:26,01:44:16,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 03:40:26,2016-11-20 03:41:10,00:00:44,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-11-20 03:41:10,-,-,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 04:50:03,2016-11-20 04:52:20,00:02:17,Informational,65,Absence of wind during run-up,,Operating states  (28),Out of Environmental Specification
+2016-11-20 04:52:20,2016-11-20 05:52:48,01:00:28,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 05:52:48,2016-11-20 10:52:39,04:59:51,Stop,3125,Timeout ready for connection,,Electrical error (24),Out of Electrical Specification
+2016-11-20 05:53:33,2016-11-20 05:53:33,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 10:09:04,2016-11-20 10:09:04,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 10:19:12,2016-11-20 10:19:12,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 10:20:37,2016-11-20 10:20:37,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 10:20:39,2016-11-20 10:20:39,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 10:20:55,2016-11-20 10:20:55,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 10:52:39,2016-11-20 10:56:23,00:03:44,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 10:56:23,2016-11-20 11:08:30,00:12:07,Stop,455,Repeating error BP52,,Repeated error  (25),Forced outage
+2016-11-20 11:08:30,2016-11-20 11:11:14,00:02:44,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 11:11:14,2016-11-21 10:12:28,23:01:14,Stop,3125,Timeout ready for connection,,Electrical error (24),Out of Electrical Specification
+2016-11-20 11:11:58,2016-11-20 11:11:58,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 11:30:48,2016-11-20 11:31:23,00:00:35,Warning,8400,Comm. failure FPM,,Warnings (27),Full Performance
+2016-11-20 16:28:20,2016-11-20 16:28:20,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-20 16:29:08,2016-11-20 16:29:08,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-21 10:04:38,2016-11-21 10:04:38,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-21 10:04:40,2016-11-21 10:04:40,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-21 10:12:28,2016-11-21 10:17:09,00:04:41,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-21 10:17:09,2016-11-21 17:36:58,07:19:49,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-11-21 10:23:15,2016-11-21 10:26:31,00:03:16,Informational,3830,Supply circuit breaker earthed,,Warnings (27),Full Performance
+2016-11-21 17:35:50,2016-11-21 17:35:50,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-21 17:35:52,2016-11-21 17:35:52,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-21 17:35:54,2016-11-21 17:35:54,00:00:00,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-21 17:36:58,2016-11-21 17:39:18,00:02:20,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-21 17:39:18,2016-11-21 17:53:44,00:14:26,Informational,1552,Gearbox warm-up stage,,Operating states  (28),Full Performance
+2016-11-21 17:53:44,2016-11-21 18:08:14,00:14:30,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-21 18:08:14,2016-11-21 18:09:56,00:01:42,Stop,1550,Missing gear oil (high rpm),,Mechanical error (23),Forced outage
+2016-11-21 18:09:56,2016-11-21 18:19:44,00:09:48,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-21 18:19:44,2016-11-21 21:51:59,03:32:15,Stop,455,Repeating error BP52,,Repeated error  (25),Forced outage
+2016-11-21 21:51:59,2016-11-21 21:53:19,00:01:20,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-21 21:53:19,2016-11-21 21:54:02,00:00:43,Stop,4530,Tower oscillation Y level 2,,Safety stop of WEC (15),Forced outage
+2016-11-21 21:54:02,2016-11-21 22:01:42,00:07:40,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-21 22:01:42,2016-11-21 22:21:27,00:19:45,Informational,245,Parameterized P red.,,Operating states  (28),
+2016-11-21 22:07:31,2016-11-21 22:20:00,00:12:29,Stop,64,Max. wind speed,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-21 22:21:27,-,-,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-22 04:33:58,2016-11-22 04:52:56,00:18:58,Stop,64,Max. wind speed,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-22 04:52:56,2016-11-22 04:55:02,00:02:06,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-22 04:55:02,2016-11-22 05:27:33,00:32:31,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-11-22 05:27:33,2016-11-22 05:31:36,00:04:03,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-22 05:31:36,2016-11-22 05:51:55,00:20:19,Stop,64,Max. wind speed,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-22 05:51:55,2016-11-22 05:54:12,00:02:17,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-22 05:54:12,2016-11-22 06:16:13,00:22:01,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-11-22 06:16:13,2016-11-22 06:18:27,00:02:14,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-22 06:18:27,2016-11-22 06:33:59,00:15:32,Stop,4530,Tower oscillation Y level 2,,Safety stop of WEC (15),Forced outage
+2016-11-22 06:33:59,2016-11-22 06:36:08,00:02:09,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-22 06:36:08,2016-11-22 12:39:39,06:03:31,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-11-22 12:39:39,2016-11-23 10:13:35,21:33:56,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-23 10:13:35,2016-11-23 10:14:23,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-23 10:14:23,2016-11-23 15:48:14,05:33:51,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-23 15:48:14,2016-11-23 15:49:02,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-23 15:49:02,2016-11-23 17:17:20,01:28:18,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-23 17:17:20,2016-11-23 17:18:08,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-23 17:18:08,2016-11-24 09:13:58,15:55:50,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-24 09:13:58,2016-11-24 09:14:46,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-24 09:14:46,2016-11-24 12:29:25,03:14:39,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-24 12:29:25,2016-11-24 12:30:12,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-24 12:30:12,2016-11-24 18:39:59,06:09:47,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-24 18:39:59,2016-11-24 18:40:46,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-24 18:40:46,-,-,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-25 04:54:38,2016-11-25 04:55:26,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-25 04:55:26,2016-11-25 05:55:22,00:59:56,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-25 05:55:22,2016-11-25 06:16:30,00:21:08,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-11-25 06:16:30,2016-11-25 07:06:25,00:49:55,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-25 07:06:25,2016-11-25 07:07:12,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-25 07:07:12,2016-11-25 07:31:40,00:24:28,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-25 07:31:40,2016-11-25 07:33:58,00:02:18,Informational,65,Absence of wind during run-up,,Operating states  (28),Out of Environmental Specification
+2016-11-25 07:33:58,2016-11-25 07:53:40,00:19:42,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-25 07:53:40,2016-11-25 07:55:58,00:02:18,Informational,65,Absence of wind during run-up,,Operating states  (28),Out of Environmental Specification
+2016-11-25 07:55:58,2016-11-25 08:56:29,01:00:31,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-25 08:56:29,2016-11-25 08:57:17,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-25 08:57:17,2016-11-25 09:10:56,00:13:39,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-25 09:10:56,2016-11-25 09:11:43,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-25 09:11:43,2016-11-25 10:26:13,01:14:30,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-25 10:26:13,2016-11-25 10:27:00,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-25 10:27:00,2016-11-25 11:20:54,00:53:54,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-25 11:20:54,2016-11-25 11:21:42,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-25 11:21:42,2016-11-25 18:22:45,07:01:03,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-25 18:22:45,2016-11-25 18:23:33,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-25 18:23:33,2016-11-25 21:09:57,02:46:24,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-25 21:09:57,2016-11-25 21:10:45,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-25 21:10:45,2016-11-25 21:54:41,00:43:56,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-25 21:54:41,2016-11-25 21:55:28,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-25 21:55:28,2016-11-26 15:39:03,17:43:35,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-26 15:39:03,2016-11-26 15:39:50,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-26 15:39:50,-,-,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-26 16:36:05,2016-11-26 16:36:53,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-26 16:36:53,2016-11-26 17:25:28,00:48:35,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-26 17:25:28,2016-11-26 17:26:15,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-26 17:26:15,2016-11-26 19:15:37,01:49:22,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-26 19:15:37,2016-11-26 19:37:23,00:21:46,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-11-26 19:37:23,2016-11-26 20:04:25,00:27:02,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-26 20:04:25,2016-11-26 21:02:19,00:57:54,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-11-26 21:02:19,2016-11-27 18:58:02,21:55:43,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-27 18:58:02,2016-11-27 18:58:49,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-27 18:58:49,2016-11-27 20:45:42,01:46:53,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-27 20:45:42,2016-11-27 20:46:29,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-27 20:46:29,2016-11-27 22:53:24,02:06:55,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-27 22:53:24,2016-11-27 22:54:11,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-27 22:54:11,2016-11-28 01:58:17,03:04:06,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-28 01:58:17,2016-11-28 01:59:04,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-28 01:59:04,2016-11-28 04:47:03,02:47:59,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-28 04:47:03,2016-11-28 04:47:50,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-28 04:47:50,2016-11-28 05:06:25,00:18:35,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-28 05:06:25,2016-11-28 05:07:13,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-28 05:07:13,2016-11-28 07:38:52,02:31:39,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-28 07:38:52,2016-11-28 07:39:40,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-28 07:39:40,2016-11-28 07:58:28,00:18:48,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-28 07:58:28,2016-11-28 08:00:39,00:02:11,Informational,65,Absence of wind during run-up,,Operating states  (28),Out of Environmental Specification
+2016-11-28 08:00:39,2016-11-28 09:00:56,01:00:17,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-28 09:00:56,2016-11-28 09:01:44,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-28 09:01:44,2016-11-28 12:11:02,03:09:18,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-28 12:11:02,2016-11-28 12:11:49,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-28 12:11:49,2016-11-28 18:57:34,06:45:45,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-28 18:57:34,2016-11-28 18:58:21,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-11-28 18:58:21,2016-11-29 06:02:20,11:03:59,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-29 06:02:20,2016-11-29 06:04:37,00:02:17,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-11-29 06:04:37,2016-11-29 10:52:38,04:48:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-29 09:06:32,2016-11-30 12:25:00,27:18:28,Stop,8000,Park master stop,,Remote stop (30),Requested Shutdown
+2016-11-30 12:25:00,2016-11-30 12:36:06,00:11:06,Informational,0,System OK,,System OK (32),Full Performance
+2016-11-30 12:36:06,2016-11-30 12:37:52,00:01:46,Stop,1550,Missing gear oil (high rpm),,Mechanical error (23),Forced outage
+2016-11-30 12:37:52,2016-12-02 12:29:03,47:51:11,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-02 12:29:03,2016-12-02 12:29:50,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-02 12:29:50,2016-12-03 01:36:53,13:07:03,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-03 01:36:53,2016-12-03 01:37:41,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-03 01:37:41,2016-12-03 02:35:43,00:58:02,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-03 02:35:43,2016-12-03 02:36:30,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-03 02:36:30,2016-12-03 04:34:36,01:58:06,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-03 04:34:36,2016-12-03 04:35:23,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-03 04:35:23,2016-12-03 11:39:01,07:03:38,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-03 11:39:01,2016-12-03 11:39:49,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-03 11:39:49,2016-12-03 14:11:08,02:31:19,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-03 14:11:08,2016-12-03 14:11:56,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-03 14:11:56,2016-12-03 14:45:17,00:33:21,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-03 14:45:17,2016-12-03 14:46:05,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-03 14:46:05,2016-12-03 15:26:19,00:40:14,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-03 15:26:19,2016-12-03 15:27:07,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-03 15:27:07,2016-12-03 17:50:42,02:23:35,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-03 17:50:42,2016-12-03 17:51:29,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-03 17:51:29,2016-12-03 19:43:18,01:51:49,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-03 19:43:18,2016-12-03 19:44:05,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-03 19:44:05,2016-12-03 20:25:36,00:41:31,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-03 20:25:36,2016-12-03 20:26:23,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-03 20:26:23,2016-12-04 01:07:03,04:40:40,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-04 01:07:03,2016-12-04 01:07:51,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-04 01:07:51,2016-12-04 02:02:52,00:55:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-04 02:02:52,2016-12-04 02:03:40,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-04 02:03:40,2016-12-04 07:31:47,05:28:07,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-04 07:31:47,2016-12-04 07:32:35,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-04 07:32:35,2016-12-04 11:16:58,03:44:23,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-04 11:16:58,2016-12-04 11:17:46,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-04 11:17:46,2016-12-04 12:19:49,01:02:03,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-04 12:19:49,2016-12-04 12:20:37,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-04 12:20:37,2016-12-05 11:57:32,23:36:55,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-05 11:57:32,2016-12-05 11:58:19,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-05 11:58:19,2016-12-08 02:15:22,62:17:03,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-08 02:15:22,2016-12-08 02:16:10,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-08 02:16:10,2016-12-08 02:24:00,00:07:50,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-08 02:24:00,2016-12-08 02:24:47,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-08 02:24:47,2016-12-08 06:52:40,04:27:53,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-08 06:52:40,2016-12-08 06:54:57,00:02:17,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-12-08 06:54:57,2016-12-08 07:45:50,00:50:53,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-08 07:45:50,2016-12-08 07:46:38,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-08 07:46:38,2016-12-08 10:29:16,02:42:38,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-08 10:29:16,2016-12-08 10:30:03,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-08 10:30:03,2016-12-08 21:43:31,11:13:28,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-08 21:43:31,2016-12-08 21:44:18,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-08 21:44:18,2016-12-10 08:47:38,35:03:20,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-10 08:47:38,2016-12-10 08:48:25,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-10 08:48:25,2016-12-10 10:19:36,01:31:11,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-10 10:19:36,2016-12-10 10:20:23,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-10 10:20:23,2016-12-11 21:51:35,35:31:12,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-11 21:51:35,2016-12-11 21:52:23,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-11 21:52:23,2016-12-11 22:00:45,00:08:22,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-11 22:00:45,2016-12-11 22:01:33,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-11 22:01:33,2016-12-11 23:00:29,00:58:56,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-11 23:00:29,2016-12-11 23:01:16,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-11 23:01:16,2016-12-12 14:49:00,15:47:44,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-12 14:49:00,2016-12-12 14:49:47,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-12 14:49:47,-,-,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-12 16:33:24,2016-12-12 16:34:12,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-12 16:34:12,2016-12-12 16:51:36,00:17:24,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-12 16:51:36,2016-12-12 17:28:40,00:37:04,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-12-12 17:28:40,2016-12-12 17:34:46,00:06:06,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-12 17:34:46,2016-12-12 17:35:33,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-12 17:35:33,2016-12-12 22:30:54,04:55:21,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-12 22:30:54,2016-12-12 22:54:44,00:23:50,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-12-12 22:54:44,2016-12-13 01:21:37,02:26:53,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-13 01:21:37,2016-12-13 01:37:41,00:16:04,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-12-13 01:37:41,2016-12-13 02:36:01,00:58:20,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-13 02:36:01,2016-12-13 02:36:49,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-13 02:36:49,2016-12-13 04:09:27,01:32:38,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-13 04:09:27,2016-12-13 04:10:14,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-13 04:10:14,2016-12-13 05:53:15,01:43:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-13 05:53:15,2016-12-13 05:55:33,00:02:18,Informational,65,Absence of wind during run-up,,Operating states  (28),Out of Environmental Specification
+2016-12-13 05:55:33,2016-12-13 06:55:44,01:00:11,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-13 06:55:44,2016-12-13 07:07:34,00:11:50,Stop,6200,Cable autounwind,,Operating states  (28),Technical Standby
+2016-12-13 07:07:34,2016-12-13 12:30:21,05:22:47,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-13 12:30:21,2016-12-13 12:31:08,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-13 12:31:08,2016-12-13 12:57:32,00:26:24,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-13 12:57:32,2016-12-13 12:58:19,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-13 12:58:19,2016-12-13 13:10:24,00:12:05,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-13 13:10:24,2016-12-13 13:11:11,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-13 13:11:11,2016-12-13 13:39:38,00:28:27,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-13 13:39:38,2016-12-13 13:40:25,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-13 13:40:25,2016-12-14 10:46:23,21:05:58,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-14 10:46:23,2016-12-14 11:17:06,00:30:43,Stop,25,Manual stop without login,,Manual stop (service)  (9),Scheduled Maintenance
+2016-12-14 10:47:43,2016-12-14 11:12:19,00:24:36,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-12-14 11:12:19,2016-12-14 11:12:40,00:00:21,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-14 11:17:06,2016-12-14 19:45:19,08:28:13,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-14 19:45:19,2016-12-14 19:46:06,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-14 19:46:06,-,-,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-14 20:19:57,2016-12-14 20:20:44,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-14 20:20:44,2016-12-14 20:46:57,00:26:13,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-14 20:46:57,2016-12-14 20:47:44,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-14 20:47:44,2016-12-14 22:32:58,01:45:14,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-14 22:32:58,2016-12-15 08:26:58,09:54:00,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-12-15 08:24:09,2016-12-15 08:24:52,00:00:43,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-15 08:26:58,2016-12-16 20:07:05,35:40:07,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-16 20:07:05,2016-12-16 20:07:52,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-16 20:07:52,-,-,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-17 09:09:59,2016-12-17 09:10:47,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-17 09:10:47,2016-12-17 09:49:01,00:38:14,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-17 09:49:01,2016-12-17 09:49:49,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-17 09:49:49,2016-12-17 10:06:21,00:16:32,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-17 10:06:21,2016-12-17 13:53:55,03:47:34,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-12-17 13:34:04,2016-12-17 13:34:39,00:00:35,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-17 13:53:06,2016-12-17 13:53:30,00:00:24,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-17 13:53:55,2016-12-17 13:56:45,00:02:50,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-17 13:56:45,2016-12-17 14:00:53,00:04:08,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-12-17 14:00:53,2016-12-17 14:03:04,00:02:11,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-17 14:03:04,2016-12-17 14:05:37,00:02:33,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-12-17 14:05:37,2016-12-17 14:11:09,00:05:32,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-17 14:11:09,2016-12-17 14:20:54,00:09:45,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-12-17 14:20:09,2016-12-17 14:20:26,00:00:17,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-17 14:20:54,2016-12-18 14:25:55,24:05:01,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-18 14:25:55,2016-12-18 14:26:42,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-18 14:26:42,2016-12-18 15:22:26,00:55:44,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-18 15:22:26,2016-12-18 15:23:14,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-18 15:23:14,2016-12-19 06:51:13,15:27:59,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-19 06:51:13,2016-12-19 06:52:00,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-19 06:52:00,2016-12-19 10:22:33,03:30:33,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-19 10:22:33,2016-12-19 10:23:20,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-19 10:23:20,2016-12-19 10:59:03,00:35:43,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-19 10:59:03,2016-12-19 10:59:50,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-19 10:59:50,2016-12-19 11:16:31,00:16:41,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-19 11:16:31,2016-12-19 11:17:19,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-19 11:17:19,2016-12-19 11:52:39,00:35:20,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-19 11:52:39,2016-12-19 11:53:26,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-19 11:53:26,2016-12-19 12:45:19,00:51:53,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-19 12:45:19,2016-12-19 12:46:07,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-19 12:46:07,2016-12-19 23:27:04,10:40:57,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-19 23:27:04,2016-12-19 23:27:51,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-19 23:27:51,2016-12-20 00:11:27,00:43:36,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-20 00:11:27,2016-12-20 00:12:14,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-20 00:12:14,2016-12-20 02:40:05,02:27:51,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-20 02:40:05,2016-12-20 03:15:14,00:35:09,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-12-20 03:15:14,2016-12-20 03:38:54,00:23:40,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-20 03:38:54,2016-12-20 04:29:25,00:50:31,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-12-20 04:29:25,2016-12-20 04:33:23,00:03:58,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-20 04:33:23,2016-12-22 16:15:40,59:42:17,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-12-21 14:11:07,2016-12-21 14:11:19,00:00:12,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-12-22 14:41:36,2016-12-22 16:15:38,01:34:02,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-12-22 16:14:16,2016-12-22 16:42:56,00:28:40,Informational,1555,Gear heating enabled,,Operating states  (28),Technical Standby
+2016-12-22 16:18:10,2016-12-22 16:19:07,00:00:57,Informational,1552,Gearbox warm-up stage,,Operating states  (28),Full Performance
+2016-12-22 16:19:01,2016-12-22 16:38:35,00:19:34,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-12-22 16:20:18,2016-12-22 16:29:35,00:09:17,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-12-22 16:40:57,2016-12-22 16:56:56,00:15:59,Informational,1552,Gearbox warm-up stage,,Operating states  (28),Full Performance
+2016-12-22 16:56:56,-,-,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-23 12:32:53,2016-12-23 12:51:05,00:18:12,Stop,64,Max. wind speed,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-23 12:51:05,2016-12-23 12:53:15,00:02:10,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-23 12:53:15,2016-12-23 14:08:18,01:15:03,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-12-23 14:08:18,2016-12-27 06:00:00,87:51:42,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-27 06:00:00,2016-12-27 06:02:17,00:02:17,Stop,710,Battery test,,Operating states  (28),Technical Standby
+2016-12-27 06:02:17,2016-12-27 07:47:29,01:45:12,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-27 07:47:29,2016-12-27 07:48:17,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-27 07:48:17,2016-12-27 17:16:26,09:28:09,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-27 17:16:26,2016-12-27 17:17:13,00:00:47,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-27 17:17:13,2016-12-27 19:12:48,01:55:35,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-27 19:12:48,2016-12-27 19:13:36,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-27 19:13:36,-,-,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-27 20:40:07,2016-12-27 20:40:55,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-27 20:40:55,2016-12-27 21:43:21,01:02:26,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-27 21:43:21,2016-12-27 21:44:09,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-27 21:44:09,2016-12-27 22:03:49,00:19:40,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-27 22:03:49,2016-12-27 23:30:50,01:27:01,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-12-27 23:30:50,2016-12-27 23:33:56,00:03:06,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-27 23:33:56,2016-12-28 09:06:19,09:32:23,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-12-28 09:06:19,2016-12-29 03:45:34,18:39:15,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-29 03:45:34,2016-12-29 03:46:22,00:00:48,Informational,10,Wind < start wind,,External stop (low wind speed)  (5),Out of Environmental Specification
+2016-12-29 03:46:22,2016-12-29 05:06:34,01:20:12,Informational,0,System OK,,System OK (32),Full Performance
+2016-12-29 05:06:34,2016-12-29 13:24:03,08:17:29,Stop,1510,Low gearbox oil pressure,,Mechanical error (23),Forced outage
+2016-12-29 13:10:20,2016-12-29 13:36:03,00:25:43,Informational,6410,Manual yaw,,Manual stop (service)  (9),Full Performance
+2016-12-29 13:27:12,2016-12-29 13:36:05,00:08:53,Stop,20,Manual stop - on site,,Manual stop (service)  (9),Scheduled Maintenance
+2016-12-29 13:36:05,2017-01-03 08:30:01,114:53:56,Informational,0,System OK,,System OK (32),Full Performance
