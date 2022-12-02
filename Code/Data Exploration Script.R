@@ -25,12 +25,12 @@ library(relaimpo)
 
 # Part 2 Load Datasets for single turbine ----------------------------------------------------
 
-Turbine2016 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2016-06-06_-_2017-01-01_1042.csv")
-Turbine2017 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2017-01-01_-_2018-01-01_1042.csv")
-Turbine2018 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2018-01-01_-_2019-01-01_1042.csv")
-Turbine2019 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2019-01-01_-_2020-01-01_1042.csv")
-Turbine2020 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2020-01-01_-_2021-01-01_1042.csv")
-Turbine2021 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2021-01-01_-_2021-07-01_1042.csv")
+Turbine2016 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2016-06-06_-_2017-01-01_1042.csv", skip = 9)
+Turbine2017 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2017-01-01_-_2018-01-01_1042.csv", skip = 9)
+Turbine2018 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2018-01-01_-_2019-01-01_1042.csv", skip = 9)
+Turbine2019 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2019-01-01_-_2020-01-01_1042.csv", skip = 9)
+Turbine2020 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2020-01-01_-_2021-01-01_1042.csv", skip = 9)
+Turbine2021 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2021-01-01_-_2021-07-01_1042.csv", skip = 9)
 
 #Combine all datasets to get final time series data
 Turbine<- rbind(Turbine2016, Turbine2017, Turbine2018, Turbine2019, Turbine2020, Turbine2021)
