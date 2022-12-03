@@ -1,0 +1,129 @@
+---
+title: "Neuralnet_WindForecast"
+output: html_document
+date: "2022-12-02"
+---
+
+```{r}
+#PART 1 : Load Packages
+
+library(tidyverse)
+library(lubridate)
+library(neuralnet)
+
+```
+
+```{r}
+#PART 2 : Load Datasets for Single Turbine
+
+Turbine2016 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2016-06-06_-_2017-01-01_1042.csv", skip = 9)
+Turbine2017 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2017-01-01_-_2018-01-01_1042.csv", skip = 9)
+Turbine2018 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2018-01-01_-_2019-01-01_1042.csv", skip = 9)
+Turbine2019 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2019-01-01_-_2020-01-01_1042.csv", skip = 9)
+Turbine2020 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2020-01-01_-_2021-01-01_1042.csv", skip = 9)
+Turbine2021 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2021-01-01_-_2021-07-01_1042.csv", skip = 9)
+
+
+Turbine<- rbind(Turbine2020, Turbine2021)
+Turbine <- Turbine2016
+```
+
+```{r}
+#PART 3 : Data-processing
+
+#Convert timestamp variable to time
+Turbine <- rename(Turbine, Date.and.time = X..Date.and.time)
+Turbine<-Turbine%>%
+  mutate(date=ymd_hms(Date.and.time))
+
+
+#Extract value from timestamp into new variables
+Turbine2<-Turbine%>%
+  mutate(hour=hour(date))%>%
+  mutate(year=year(date))%>%
+  mutate(month=month(date))%>%
+  mutate(day=day(date))%>%
+  mutate(week=week(date))
+
+Turbine2<-Turbine2%>%
+  mutate(sinmonth = sin(2 * pi * month / 12),
+         cosmonth = cos(2 * pi * month / 12),
+         sinday = sin(2 * pi * day / 7),
+         cosday = cos(2 * pi * day / 7),
+         cosweek = cos(2* pi * week / 52),
+         sinweek = sin(2 * pi * week / 52),
+         sinhour = sin(2 * pi * hour / 24),
+         coshour = cos(2 * pi * hour / 24))
+
+#Create new final dataset with relevant variables
+Turbine3<-Turbine2[c(1, 2, 4, 5, 16, 28, 17,95, 302:314)]
+
+#Convert timestamp variable to time
+Turbine3<-Turbine3%>%
+  mutate(date=lubridate::ymd_hms(Date.and.time))
+
+#Create test and train data
+
+train_features <- Turbine3 %>% 
+  select(!c(Date.and.time,date,year))%>% 
+  colnames()
+
+Turbine3<-Turbine3%>%
+  drop_na()
+
+split_point <- "2016-10-15 00:00:00"
+table(ifelse(Turbine3$date < split_point, "training set", "testing set"))
+
+maxs <- apply(Turbine3[train_features], 2, max)
+mins <- apply(Turbine3[train_features], 2, min)
+
+scaled_Turbine3 <- as.data.frame(scale(Turbine3[train_features], center = mins, scale = maxs - mins))
+
+scaled_Turbine3$date <- Turbine3$date
+
+train_data <- scaled_Turbine3 %>% subset(date < split_point)
+test_data <- scaled_Turbine3 %>% subset(date >= split_point)
+
+```
+
+```{r}
+#PART 4 Model Deployment
+
+
+nn_formula <- as.formula(paste("Energy.Export..kWh. ~", paste(train_features, collapse = "+")))
+nn <- neuralnet(nn_formula, 
+                data = train_data, hidden = 2, linear.output = TRUE, threshold =0.1, stepmax = 1e+5)
+
+plot(nn)
+
+
+```
+
+```{r}
+#PART 5 Neural Network
+
+#Prediction
+nn_predictions <- compute(nn, test_data)
+
+predictions <- data.frame(
+  date = test_data$date,
+  normalized = nn_predictions$net.result,
+  denormalized = nn_predictions$net.result *(max(Turbine3$Energy.Export..kWh.)-min(Turbine3$Energy.Export..kWh.))+min(Turbine3$Energy.Export..kWh.)
+)
+
+#Plot actual vs predicted
+
+ggplot(dplyr::filter(Turbine3, date >="2016-10-20 00:00:00", date <="2016-10-20 23:00:00"),
+       aes(x = date, y = Energy.Export..kWh.)) +
+  geom_line() +
+  geom_line(aes(y = denormalized), color = "red", alpha = 0.5,
+            data = filter(predictions, date >="2016-10-20 00:00:00", date <="2016-10-20 23:00:00" )) +
+  theme_minimal() +
+  theme(legend.position = "bottom") +
+  labs(x = "Date", y = "Energy Export (kWh)",
+       title = " Actual vs Prediction",
+       subtitle = "Actual = black; Prediction = red ")
+```
+
+
+
