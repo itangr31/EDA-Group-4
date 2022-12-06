@@ -10,6 +10,9 @@ date: "2022-12-02"
 library(tidyverse)
 library(lubridate)
 library(neuralnet)
+library(MLmetrics)
+library(hydroGOF)
+library(DTWBI)
 
 ```
 
@@ -185,13 +188,11 @@ predictions <- data.frame(
 
 random_date <- sample(unique(date(predictions$date)), 1)
 
-predictions <- predictions %>% 
-  pivot_longer(!date, names_to = "data_type", values_to = "number" )
-
 plot1 <- predictions %>% 
+  pivot_longer(!date, names_to = "data_type", values_to = "number" ) %>% 
   filter(date(date) == random_date) %>% 
   ggplot() +
-  geom_line(aes(x = date, y = number, colour = data_type)) +
+  geom_line(aes(x = date, y = number, colour = data_type, alpha =0.5)) +
   geom_point(aes(x = date, y = number, colour = data_type, shape = data_type)) +
   theme_minimal() +
   theme(legend.position = "right") +
@@ -200,15 +201,28 @@ plot1 <- predictions %>%
 
 plot1
 
+
+
+```
+```{r}
 #Accuracy
 
-predict= filter(predictions, data_type == "prediction")
-act=filter(predictions, data_type == "actual")
-comparison=data.frame(predict,act)
-deviation=abs((act$number-predict$number)/act$number)
-comparison=data.frame(predict$number,act$number,deviation)
-accuracy=1-sum(deviation)
-accuracy
+#Calculate MAPE (Still not working)
+
+MAPE <- mean(abs((predictions$actual-predictions$prediction/predictions$actual))) * 100
+
+#Calculate RMSE
+
+RMSE <- RMSE(y_pred = predictions$prediction, y_true = predictions$actual)
+
+NRMSE <- nrmse(predictions$prediction, predictions$actual)
+
+#Calculate MAE
+
+MAE <- MAE(y_pred = predictions$prediction, y_true = predictions$actual)
+
+NMAE <- compute.nmae(predictions$prediction, predictions$actual)
+
 ```
 
 
