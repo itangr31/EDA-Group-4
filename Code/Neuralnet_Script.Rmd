@@ -134,7 +134,7 @@ ggplot(dplyr::filter(Turbine3, date >="2016-10-20 00:00:00", date <="2016-10-20 
        subtitle = "Actual = black; Prediction = red ")
 ```
 ```{r}
-#Code using Final Dataset
+# PART 6 Code using Final Dataset
 
 #Data processing
 
@@ -161,6 +161,8 @@ train_features <- Turbine %>%
   select(!date)%>% 
   colnames()
 
+#Normalize Data
+
 maxs <- apply(Turbine[train_features], 2, max)
 mins <- apply(Turbine[train_features], 2, min)
 
@@ -176,7 +178,6 @@ nn <- neuralnet(nn_formula,
 plot(nn)
 
 nn_predictions <- compute(nn, scaled_test)
-nn_predictions <- predict(nn, scaled_test)
 
 predictions <- data.frame(
   date = test_data$date,
@@ -192,7 +193,7 @@ plot1 <- predictions %>%
   pivot_longer(!date, names_to = "data_type", values_to = "number" ) %>% 
   filter(date(date) == random_date) %>% 
   ggplot() +
-  geom_line(aes(x = date, y = number, colour = data_type, alpha =0.5)) +
+  geom_line(aes(x = date, y = number, colour = data_type, alpha =0.7)) +
   geom_point(aes(x = date, y = number, colour = data_type, shape = data_type)) +
   theme_minimal() +
   theme(legend.position = "right") +
@@ -205,7 +206,7 @@ plot1
 
 ```
 ```{r}
-#Accuracy
+#error function
 
 #Calculate MAPE (Still not working)
 
