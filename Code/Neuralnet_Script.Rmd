@@ -26,6 +26,12 @@ Turbine2021 <- read.csv("Data/Turbine_Data_Penmanshiel_01_2021-01-01_-_2021-07-0
 
 Turbine<- rbind(Turbine2020, Turbine2021)
 Turbine <- Turbine2016
+
+
+
+
+
+
 ```
 
 ```{r}
@@ -123,6 +129,86 @@ ggplot(dplyr::filter(Turbine3, date >="2016-10-20 00:00:00", date <="2016-10-20 
   labs(x = "Date", y = "Energy Export (kWh)",
        title = " Actual vs Prediction",
        subtitle = "Actual = black; Prediction = red ")
+```
+```{r}
+#Code using Final Dataset
+
+#Data processing
+
+
+train_data <- read.csv("Data/finaltrain.csv")
+test_data <- read.csv("Data/finaltest.csv")
+
+train_data <- train_data %>% 
+  mutate(date=dmy_hm(Date.and.time)) %>% 
+  select(!Date.and.time) %>% 
+  drop_na()
+
+test_data <- test_data %>% 
+  mutate(date=dmy_hm(Date.and.time)) %>% 
+  select(!Date.and.time) %>% 
+  drop_na()
+
+Turbine <- rbind(train_data,test_data)
+
+Turbine <- Turbine %>% 
+  drop_na()
+
+train_features <- Turbine %>% 
+  select(!date)%>% 
+  colnames()
+
+maxs <- apply(Turbine[train_features], 2, max)
+mins <- apply(Turbine[train_features], 2, min)
+
+scaled_train <- as.data.frame(scale(train_data[train_features], center = mins, scale = maxs - mins))
+scaled_test <- as.data.frame(scale(test_data[train_features], center = mins, scale = maxs - mins))
+
+#Model Generation
+
+nn_formula <- as.formula(paste("Energy.Export..kWh. ~", paste(train_features, collapse = "+")))
+nn <- neuralnet(nn_formula, 
+                data = scaled_train, hidden = 3, linear.output = TRUE,err.fct = "sse", threshold =0.1, algorithm = "rprop+",stepmax = 1e+5)
+
+plot(nn)
+
+nn_predictions <- compute(nn, scaled_test)
+nn_predictions <- predict(nn, scaled_test)
+
+predictions <- data.frame(
+  date = test_data$date,
+  prediction = nn_predictions$net.result *(max(Turbine$Energy.Export..kWh.)-min(Turbine$Energy.Export..kWh.))+min(Turbine$Energy.Export..kWh.),
+  actual = test_data$Energy.Export..kWh.
+)
+
+#Plot actual vs predicted
+
+random_date <- sample(unique(date(predictions$date)), 1)
+
+predictions <- predictions %>% 
+  pivot_longer(!date, names_to = "data_type", values_to = "number" )
+
+plot1 <- predictions %>% 
+  filter(date(date) == random_date) %>% 
+  ggplot() +
+  geom_line(aes(x = date, y = number, colour = data_type)) +
+  geom_point(aes(x = date, y = number, colour = data_type, shape = data_type)) +
+  theme_minimal() +
+  theme(legend.position = "right") +
+  labs(x = "Date", y = "Energy Export (kWh)",
+       title = " Actual vs Prediction")
+
+plot1
+
+#Accuracy
+
+predict= filter(predictions, data_type == "prediction")
+act=filter(predictions, data_type == "actual")
+comparison=data.frame(predict,act)
+deviation=abs((act$number-predict$number)/act$number)
+comparison=data.frame(predict$number,act$number,deviation)
+accuracy=1-sum(deviation)
+accuracy
 ```
 
 
