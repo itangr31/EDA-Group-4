@@ -144,12 +144,12 @@ test_data <- read.csv("Data/finaltest.csv")
 
 train_data <- train_data %>% 
   mutate(date=dmy_hm(Date.and.time)) %>% 
-  select(!Date.and.time) %>% 
+  dplyr::select(!Date.and.time) %>% 
   drop_na()
 
 test_data <- test_data %>% 
   mutate(date=dmy_hm(Date.and.time)) %>% 
-  select(!Date.and.time) %>% 
+  dplyr::select(!Date.and.time) %>% 
   drop_na()
 
 Turbine <- rbind(train_data,test_data)
@@ -158,7 +158,7 @@ Turbine <- Turbine %>%
   drop_na()
 
 train_features <- Turbine %>% 
-  select(!date)%>% 
+  dplyr::select(!date)%>% 
   colnames()
 
 #Normalize Data
@@ -208,10 +208,14 @@ plot1
 ```{r}
 #error function
 
-#Calculate MAPE (Still not working)
+#Calculate MAPE
 
-MAPE <- mean(abs((predictions$actual-predictions$prediction/predictions$actual))) * 100
+predictions$APE<-abs((predictions$actual - predictions$prediction)/predictions$actual) * 100
 
+predictions<-predictions%>%
+  filter_at(vars(APE), all_vars(!is.infinite(.)))
+
+MAPE <- mean(predictions$APE)
 #Calculate RMSE
 
 RMSE <- RMSE(y_pred = predictions$prediction, y_true = predictions$actual)
