@@ -13,6 +13,7 @@ library(neuralnet)
 library(MLmetrics)
 library(hydroGOF)
 library(DTWBI)
+library(plyr)
 
 ```
 
@@ -101,8 +102,7 @@ test_data <- scaled_Turbine3 %>% subset(date >= split_point)
 
 nn_formula <- as.formula(paste("Energy.Export..kWh. ~", paste(train_features, collapse = "+")))
 nn <- neuralnet(nn_formula, 
-                data = train_data, hidden = 2, linear.output = TRUE, threshold =0.1, stepmax = 1e+5)
-
+                data = train_data, hidden = 8, linear.output = TRUE,err.fct = "sse", threshold =0.5, algorithm = "rprop+",stepmax = 1e+5)
 plot(nn)
 
 
@@ -134,7 +134,131 @@ ggplot(dplyr::filter(Turbine3, date >="2016-10-20 00:00:00", date <="2016-10-20 
        subtitle = "Actual = black; Prediction = red ")
 ```
 ```{r}
-# PART 6 Code using Final Dataset
+#PART 6 Parameter Tuning
+
+#Cross Validation
+
+train_data <- read.csv("Data/finaltrain.csv")
+test_data <- read.csv("Data/finaltest.csv")
+
+train_data <- train_data %>% 
+  mutate(date=dmy_hm(Date.and.time)) %>% 
+  dplyr::select(!Date.and.time) %>% 
+  drop_na()
+
+test_data <- test_data %>% 
+  mutate(date=dmy_hm(Date.and.time)) %>% 
+  dplyr::select(!Date.and.time) %>% 
+  drop_na()
+
+Turbine <- rbind(train_data,test_data)
+
+Turbine <- Turbine %>% 
+  drop_na()
+
+clean_features <- Turbine %>% 
+  dplyr::select(!date)%>% 
+  colnames()
+
+train_features <- Turbine %>% 
+  dplyr::select(!c(date,Energy.Export..kWh.))%>% 
+  colnames()
+
+crossvalidate <- function(data,hidden_l=c(5))
+{
+    
+    # Scaling the data (min-max scaling)
+maxs <- apply(data[clean_features], 2, max)
+mins <- apply(data[clean_features], 2, min)
+
+scaled <- as.data.frame(scale(data[clean_features], center = mins, scale = maxs - mins))
+
+    
+    # Initialize cv.error vector
+    cv.error <- NULL
+    
+    # Number of train-test splits
+    k <- 10
+    
+# Cross validating
+    for(j in 1:k)
+    {
+        # Train-test split
+        index <- sample(1:nrow(data),round(0.90*nrow(data)))
+        train.cv <- scaled[index,]
+        test.cv <- scaled[-index,]
+        
+        # NN fitting
+        nn <- neuralnet(nn_formula,data=train.cv,hidden=hidden_l,linear.output = TRUE,err.fct = "sse", threshold =0.5, algorithm = "rprop+")
+        
+        # Predicting
+        pr.nn <- compute(nn,test.cv)
+        
+        # Scaling back the predicted results
+        pr.nn <- pr.nn$net.result*(max(Turbine$Energy.Export..kWh.)-min(Turbine$Energy.Export..kWh.))+min(Turbine$Energy.Export..kWh.)
+        
+        # Real results
+        test.cv.r <- (test.cv$Energy.Export..kWh.)*(max(Turbine$Energy.Export..kWh.)-min(Turbine$Energy.Export..kWh.))+min(Turbine$Energy.Export..kWh.)
+        
+        # Calculating MSE test error
+        cv.error <- sum((test.cv.r - pr.nn)^2)/nrow(test.cv)
+    }
+    
+    # Return average MSE
+    return(mean(cv.error))
+}
+
+# Selecting the number of neurons in the hidden layer
+
+test.error <- NULL
+train.error <- NULL
+
+#Normalize Data
+
+maxs <- apply(Turbine[clean_features], 2, max)
+mins <- apply(Turbine[clean_features], 2, min)
+
+scaled_train <- as.data.frame(scale(train_data[clean_features], center = mins, scale = maxs - mins)) 
+scaled_test <- as.data.frame(scale(test_data[clean_features], center = mins, scale = maxs - mins))
+
+nn_formula <- as.formula(paste("Energy.Export..kWh. ~", paste(train_features, collapse = "+")))
+
+#Generate Progress Bar
+pbar <- create_progress_bar('text')
+pbar$init(12)
+
+
+set.seed(123)
+
+for(i in 1:12)
+{
+   # Fit the net and calculate training error (point estimate)
+  nn.fit <- neuralnet(nn_formula, 
+                data = scaled_train, hidden = c(i), linear.output = TRUE,err.fct = "sse", threshold =0.5, algorithm = "rprop+")
+  
+  train.error[i] <- sum(((as.data.frame(nn.fit$net.result)*(412-0)+412) - (scaled_train$Energy.Export..kWh.*(412-0)+412))^2)/nrow(scaled_train)
+  
+  # Calculate test error through cross validation
+    test.error[i] <- crossvalidate(Turbine,hidden_l=c(i))
+    
+    # Step bar
+    pbar$step()
+
+}
+
+# Print out test and train error vectors
+test.error
+train.error
+
+# Plot train error
+plot(train.error,main='MSE vs hidden neurons',xlab="Hidden neurons",ylab='Train error MSE',type='l',col='red',lwd=2)
+# Plot test error
+plot(test.error,main='MSE vs hidden neurons',xlab="Hidden neurons",ylab='Test error MSE',type='l',col='blue',lwd=2)
+
+```
+
+```{r}
+# PART 7 Code using Final Dataset
 
 #Data processing
 
@@ -173,7 +297,7 @@ scaled_test <- as.data.frame(scale(test_data[train_features], center = mins, sca
 
 nn_formula <- as.formula(paste("Energy.Export..kWh. ~", paste(train_features, collapse = "+")))
 nn <- neuralnet(nn_formula, 
-                data = scaled_train, hidden = 3, linear.output = TRUE,err.fct = "sse", threshold =0.1, algorithm = "rprop+",stepmax = 1e+5)
+                data = scaled_train, hidden = 8, linear.output = TRUE,err.fct = "sse", threshold =0.1, algorithm = "rprop+",stepmax = 1e+5)
 
 plot(nn)
 
@@ -187,11 +311,11 @@ predictions <- data.frame(
 
 #Plot actual vs predicted
 
-random_date <- sample(unique(date(predictions$date)), 1)
+random_date <- "2020-05-25"
 
 plot1 <- predictions %>% 
   pivot_longer(!date, names_to = "data_type", values_to = "number" ) %>% 
-  filter(date(date) == random_date) %>% 
+  filter(date(date) == "2020-05-25") %>% 
   ggplot() +
   geom_line(aes(x = date, y = number, colour = data_type, alpha =0.7)) +
   geom_point(aes(x = date, y = number, colour = data_type, shape = data_type)) +
@@ -227,6 +351,10 @@ NRMSE <- nrmse(predictions$prediction, predictions$actual)
 MAE <- MAE(y_pred = predictions$prediction, y_true = predictions$actual)
 
 NMAE <- compute.nmae(predictions$prediction, predictions$actual)
+
+predictions %>% 
+  select(-actual) %>% 
+  write.csv("/Users/ilhamrizaldi/Documents/GitHub/ANN Prediction.csv", row.names=FALSE)
 
 ```
 
